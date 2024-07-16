@@ -1,0 +1,1327 @@
+[proper_super_calls] 2024-07-17T02:01:20.928929 Plugin proper_super_calls threw while analyzing C:\Users\ertad\StudioProjects\flutter_vlc\pigeons\messages.dart:
+[proper_super_calls] 2024-07-17T02:01:20.928929 type 'EmptyFunctionBodyImpl' is not a subtype of type 'BlockFunctionBody' in type cast
+[proper_super_calls] 2024-07-17T02:01:20.928929 #0      ProperSuperCallsRule.run.<anonymous closure> (package:solid_lints/src/lints/proper_super_calls/proper_super_calls_rule.dart:94:41)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #1      _rootRunUnary (dart:async/zone.dart:1415:13)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #2      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #3      LinterVisitor._runSubscriptions (package:custom_lint_core/src/node_lint_visitor.g.dart:29:27)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #4      LinterVisitor.visitMethodDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:729:5)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #5      MethodDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:12141:50)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #6      NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #7      ClassDeclarationImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:2909:13)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #8      GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #9      LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #10     GeneralizingAstVisitor.visitAnnotatedNode (package:analyzer/dart/ast/visitor.dart:137:48)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #11     LinterVisitor.visitAnnotatedNode (package:custom_lint_core/src/node_lint_visitor.g.dart:46:11)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #12     GeneralizingAstVisitor.visitDeclaration (package:analyzer/dart/ast/visitor.dart:260:44)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #13     LinterVisitor.visitDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:286:11)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #14     GeneralizingAstVisitor.visitCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:222:7)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #15     LinterVisitor.visitCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:214:11)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #16     GeneralizingAstVisitor.visitNamedCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:516:7)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #17     LinterVisitor.visitNamedCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:748:11)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #18     GeneralizingAstVisitor.visitClassDeclaration (package:analyzer/dart/ast/visitor.dart:201:7)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #19     LinterVisitor.visitClassDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:166:11)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #20     ClassDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:2899:50)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #21     NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #22     CompilationUnitImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:3662:21)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #23     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #24     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #25     GeneralizingAstVisitor.visitCompilationUnit (package:analyzer/dart/ast/visitor.dart:219:52)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #26     LinterVisitor.visitCompilationUnit (package:custom_lint_core/src/node_lint_visitor.g.dart:208:11)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #27     CompilationUnitImpl.accept (package:analyzer/src/dart/ast/ast.dart:3655:50)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #28     DartLintRule.startUp.<anonymous closure> (package:custom_lint_core/src/lint_rule.dart:136:17)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #29     _rootRun (dart:async/zone.dart:1399:13)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #30     _CustomZone.run (dart:async/zone.dart:1301:19)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #31     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #32     runPostRunCallbacks (package:custom_lint_core/src/plugin_base.dart:16:19)
+[proper_super_calls] 2024-07-17T02:01:20.928929 #33     _ClientAnalyzerPlugin.analyzeFile.<anonymous closure> (package:custom_lint_builder/src/client.dart:924:7)
+[proper_super_calls] 2024-07-17T02:01:20.928929 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:01:20.928929 #34     _ClientAnalyzerPlugin._runOperation (package:custom_lint_builder/src/client.dart:1076:14)
+[proper_super_calls] 2024-07-17T02:01:20.928929 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:01:20.928929 #35     _ClientAnalyzerPlugin.analyzeFile (package:custom_lint_builder/src/client.dart:888:5)
+[proper_super_calls] 2024-07-17T02:01:20.928929 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:01:20.928929 #36     ServerPlugin.analyzeFiles (package:analyzer_plugin/plugin/plugin.dart:119:7)
+[proper_super_calls] 2024-07-17T02:01:20.928929 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:01:20.928929 #37     ServerPlugin.afterNewContextCollection.<anonymous closure> (package:analyzer_plugin/plugin/plugin.dart:86:7)
+[proper_super_calls] 2024-07-17T02:01:20.928929 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:01:20.928929 #38     ServerPlugin._forAnalysisContexts (package:analyzer_plugin/plugin/plugin.dart:517:7)
+[proper_super_calls] 2024-07-17T02:01:20.928929 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:01:20.928929 #39     ServerPlugin.afterNewContextCollection (package:analyzer_plugin/plugin/plugin.dart:84:5)
+[proper_super_calls] 2024-07-17T02:01:20.928929 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:01:20.928929 #40     _ClientAnalyzerPlugin._runOperation (package:custom_lint_builder/src/client.dart:1076:14)
+[proper_super_calls] 2024-07-17T02:01:20.928929 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:01:20.928929 #41     ServerPlugin.handleAnalysisSetContextRoots (package:analyzer_plugin/plugin/plugin.dart:273:5)
+[proper_super_calls] 2024-07-17T02:01:20.928929 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:01:20.928929 #42     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:536:18)
+[proper_super_calls] 2024-07-17T02:01:20.928929 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:01:20.928929 #43     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+[proper_super_calls] 2024-07-17T02:01:20.928929 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:01:20.928929
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Bad state: Unable to find the context to C:\Users\ertad\AppData\Local\Pub\Cache\hosted\pub.dev\pigeon-21.0.0\lib\pigeon_lib.dart
+#0      AnalysisContextCollectionImpl.contextFor (package:analyzer/src/dart/analysis/analysis_context_collection.dart:151:5)
+#1      _ClientAnalyzerPlugin.handleEditGetAssists (package:custom_lint_builder/src/client.dart:453:47)
+<asynchronous suspension>
+#2      ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:556:18)
+<asynchronous suspension>
+#3      ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:268:11)
+#1      _$CustomLintResponseAnalyzerPluginResponseImpl.map (package:custom_lint/src/v2/protocol.freezed.dart:928:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:262:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:188:17)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Bad state: Unable to find the context to C:\Users\ertad\AppData\Local\Pub\Cache\hosted\pub.dev\pigeon-21.0.0\lib\pigeon_lib.dart
+#0      AnalysisContextCollectionImpl.contextFor (package:analyzer/src/dart/analysis/analysis_context_collection.dart:151:5)
+#1      _ClientAnalyzerPlugin.handleEditGetAssists (package:custom_lint_builder/src/client.dart:453:47)
+<asynchronous suspension>
+#2      ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:556:18)
+<asynchronous suspension>
+#3      ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:268:11)
+#1      _$CustomLintResponseAnalyzerPluginResponseImpl.map (package:custom_lint/src/v2/protocol.freezed.dart:928:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:262:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:188:17)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Bad state: Unable to find the context to C:\Users\ertad\AppData\Local\Pub\Cache\hosted\pub.dev\pigeon-21.0.0\lib\pigeon_lib.dart
+#0      AnalysisContextCollectionImpl.contextFor (package:analyzer/src/dart/analysis/analysis_context_collection.dart:151:5)
+#1      _ClientAnalyzerPlugin.handleEditGetAssists (package:custom_lint_builder/src/client.dart:453:47)
+<asynchronous suspension>
+#2      ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:556:18)
+<asynchronous suspension>
+#3      ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:268:11)
+#1      _$CustomLintResponseAnalyzerPluginResponseImpl.map (package:custom_lint/src/v2/protocol.freezed.dart:928:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:262:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:188:17)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Bad state: Unable to find the context to C:\Users\ertad\AppData\Local\Pub\Cache\hosted\pub.dev\pigeon-21.0.0\lib\pigeon_lib.dart
+#0      AnalysisContextCollectionImpl.contextFor (package:analyzer/src/dart/analysis/analysis_context_collection.dart:151:5)
+#1      _ClientAnalyzerPlugin.handleEditGetAssists (package:custom_lint_builder/src/client.dart:453:47)
+<asynchronous suspension>
+#2      ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:556:18)
+<asynchronous suspension>
+#3      ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:268:11)
+#1      _$CustomLintResponseAnalyzerPluginResponseImpl.map (package:custom_lint/src/v2/protocol.freezed.dart:928:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:262:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:188:17)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Bad state: Unable to find the context to C:\Users\ertad\AppData\Local\Pub\Cache\hosted\pub.dev\pigeon-21.0.0\lib\pigeon_lib.dart
+#0      AnalysisContextCollectionImpl.contextFor (package:analyzer/src/dart/analysis/analysis_context_collection.dart:151:5)
+#1      _ClientAnalyzerPlugin.handleEditGetAssists (package:custom_lint_builder/src/client.dart:453:47)
+<asynchronous suspension>
+#2      ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:556:18)
+<asynchronous suspension>
+#3      ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:268:11)
+#1      _$CustomLintResponseAnalyzerPluginResponseImpl.map (package:custom_lint/src/v2/protocol.freezed.dart:928:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:262:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:188:17)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Bad state: Unable to find the context to C:\Users\ertad\AppData\Local\Pub\Cache\hosted\pub.dev\pigeon-21.0.0\lib\pigeon_lib.dart
+#0      AnalysisContextCollectionImpl.contextFor (package:analyzer/src/dart/analysis/analysis_context_collection.dart:151:5)
+#1      _ClientAnalyzerPlugin.handleEditGetAssists (package:custom_lint_builder/src/client.dart:453:47)
+<asynchronous suspension>
+#2      ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:556:18)
+<asynchronous suspension>
+#3      ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:268:11)
+#1      _$CustomLintResponseAnalyzerPluginResponseImpl.map (package:custom_lint/src/v2/protocol.freezed.dart:928:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:262:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:188:17)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Bad state: Unable to find the context to C:\Users\ertad\AppData\Local\Pub\Cache\hosted\pub.dev\pigeon-21.0.0\lib\pigeon_lib.dart
+#0      AnalysisContextCollectionImpl.contextFor (package:analyzer/src/dart/analysis/analysis_context_collection.dart:151:5)
+#1      _ClientAnalyzerPlugin.handleEditGetAssists (package:custom_lint_builder/src/client.dart:453:47)
+<asynchronous suspension>
+#2      ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:556:18)
+<asynchronous suspension>
+#3      ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:268:11)
+#1      _$CustomLintResponseAnalyzerPluginResponseImpl.map (package:custom_lint/src/v2/protocol.freezed.dart:928:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:262:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:188:17)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Bad state: Unable to find the context to C:\Users\ertad\AppData\Local\Pub\Cache\hosted\pub.dev\pigeon-21.0.0\lib\pigeon_lib.dart
+#0      AnalysisContextCollectionImpl.contextFor (package:analyzer/src/dart/analysis/analysis_context_collection.dart:151:5)
+#1      _ClientAnalyzerPlugin.handleEditGetAssists (package:custom_lint_builder/src/client.dart:453:47)
+<asynchronous suspension>
+#2      ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:556:18)
+<asynchronous suspension>
+#3      ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:268:11)
+#1      _$CustomLintResponseAnalyzerPluginResponseImpl.map (package:custom_lint/src/v2/protocol.freezed.dart:928:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:262:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:188:17)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+The request edit.getAssists failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+A request threw the exception:Bad state: Unable to find the context to C:\Users\ertad\AppData\Local\Pub\Cache\hosted\pub.dev\pigeon-21.0.0\lib\pigeon_lib.dart
+#0      AnalysisContextCollectionImpl.contextFor (package:analyzer/src/dart/analysis/analysis_context_collection.dart:151:5)
+#1      _ClientAnalyzerPlugin.handleEditGetAssists (package:custom_lint_builder/src/client.dart:453:47)
+<asynchronous suspension>
+#2      ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:556:18)
+<asynchronous suspension>
+#3      ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+<asynchronous suspension>
+
+at:
+#0      SocketCustomLintServerToClientChannel.sendCustomLintRequest.<anonymous closure> (package:custom_lint/src/v2/server_to_client_channel.dart:268:11)
+#1      _$CustomLintResponseAnalyzerPluginResponseImpl.map (package:custom_lint/src/v2/protocol.freezed.dart:928:34)
+#2      SocketCustomLintServerToClientChannel.sendCustomLintRequest (package:custom_lint/src/v2/server_to_client_channel.dart:262:14)
+<asynchronous suspension>
+#3      SocketCustomLintServerToClientChannel.sendAnalyzerPluginRequest (package:custom_lint/src/v2/server_to_client_channel.dart:234:22)
+<asynchronous suspension>
+#4      CustomLintServer._handleRequest.<anonymous closure>.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:188:17)
+<asynchronous suspension>
+#5      PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#6      CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:171:22)
+<asynchronous suspension>
+
+[proper_super_calls] 2024-07-17T02:02:29.385819 Plugin proper_super_calls threw while analyzing C:\Users\ertad\StudioProjects\flutter_vlc\pigeons\messages.dart:
+[proper_super_calls] 2024-07-17T02:02:29.385819 type 'EmptyFunctionBodyImpl' is not a subtype of type 'BlockFunctionBody' in type cast
+[proper_super_calls] 2024-07-17T02:02:29.385819 #0      ProperSuperCallsRule.run.<anonymous closure> (package:solid_lints/src/lints/proper_super_calls/proper_super_calls_rule.dart:94:41)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #1      _rootRunUnary (dart:async/zone.dart:1415:13)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #2      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #3      LinterVisitor._runSubscriptions (package:custom_lint_core/src/node_lint_visitor.g.dart:29:27)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #4      LinterVisitor.visitMethodDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:729:5)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #5      MethodDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:12141:50)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #6      NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #7      ClassDeclarationImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:2909:13)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #8      GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #9      LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #10     GeneralizingAstVisitor.visitAnnotatedNode (package:analyzer/dart/ast/visitor.dart:137:48)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #11     LinterVisitor.visitAnnotatedNode (package:custom_lint_core/src/node_lint_visitor.g.dart:46:11)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #12     GeneralizingAstVisitor.visitDeclaration (package:analyzer/dart/ast/visitor.dart:260:44)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #13     LinterVisitor.visitDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:286:11)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #14     GeneralizingAstVisitor.visitCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:222:7)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #15     LinterVisitor.visitCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:214:11)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #16     GeneralizingAstVisitor.visitNamedCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:516:7)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #17     LinterVisitor.visitNamedCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:748:11)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #18     GeneralizingAstVisitor.visitClassDeclaration (package:analyzer/dart/ast/visitor.dart:201:7)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #19     LinterVisitor.visitClassDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:166:11)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #20     ClassDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:2899:50)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #21     NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #22     CompilationUnitImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:3662:21)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #23     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #24     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #25     GeneralizingAstVisitor.visitCompilationUnit (package:analyzer/dart/ast/visitor.dart:219:52)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #26     LinterVisitor.visitCompilationUnit (package:custom_lint_core/src/node_lint_visitor.g.dart:208:11)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #27     CompilationUnitImpl.accept (package:analyzer/src/dart/ast/ast.dart:3655:50)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #28     DartLintRule.startUp.<anonymous closure> (package:custom_lint_core/src/lint_rule.dart:136:17)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #29     _rootRun (dart:async/zone.dart:1399:13)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #30     _CustomZone.run (dart:async/zone.dart:1301:19)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #31     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #32     runPostRunCallbacks (package:custom_lint_core/src/plugin_base.dart:16:19)
+[proper_super_calls] 2024-07-17T02:02:29.385819 #33     _ClientAnalyzerPlugin.analyzeFile.<anonymous closure> (package:custom_lint_builder/src/client.dart:924:7)
+[proper_super_calls] 2024-07-17T02:02:29.385819 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:29.385819 #34     _ClientAnalyzerPlugin._runOperation (package:custom_lint_builder/src/client.dart:1076:14)
+[proper_super_calls] 2024-07-17T02:02:29.385819 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:29.385819 #35     _ClientAnalyzerPlugin.analyzeFile (package:custom_lint_builder/src/client.dart:888:5)
+[proper_super_calls] 2024-07-17T02:02:29.385819 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:29.385819 #36     ServerPlugin.analyzeFiles (package:analyzer_plugin/plugin/plugin.dart:111:7)
+[proper_super_calls] 2024-07-17T02:02:29.385819 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:29.385819 #37     ServerPlugin.afterNewContextCollection.<anonymous closure> (package:analyzer_plugin/plugin/plugin.dart:86:7)
+[proper_super_calls] 2024-07-17T02:02:29.385819 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:29.385819 #38     ServerPlugin._forAnalysisContexts (package:analyzer_plugin/plugin/plugin.dart:510:9)
+[proper_super_calls] 2024-07-17T02:02:29.385819 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:29.385819 #39     ServerPlugin.afterNewContextCollection (package:analyzer_plugin/plugin/plugin.dart:84:5)
+[proper_super_calls] 2024-07-17T02:02:29.385819 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:29.385819 #40     _ClientAnalyzerPlugin._runOperation (package:custom_lint_builder/src/client.dart:1076:14)
+[proper_super_calls] 2024-07-17T02:02:29.385819 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:29.385819 #41     ServerPlugin.handleAnalysisSetContextRoots (package:analyzer_plugin/plugin/plugin.dart:273:5)
+[proper_super_calls] 2024-07-17T02:02:29.385819 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:29.385819 #42     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:536:18)
+[proper_super_calls] 2024-07-17T02:02:29.385819 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:29.385819 #43     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+[proper_super_calls] 2024-07-17T02:02:29.385819 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:29.385819
+[proper_super_calls] 2024-07-17T02:02:43.801933 Plugin proper_super_calls threw while analyzing C:\Users\ertad\StudioProjects\flutter_vlc\pigeons\messages.dart:
+[proper_super_calls] 2024-07-17T02:02:43.801933 type 'EmptyFunctionBodyImpl' is not a subtype of type 'BlockFunctionBody' in type cast
+[proper_super_calls] 2024-07-17T02:02:43.801933 #0      ProperSuperCallsRule.run.<anonymous closure> (package:solid_lints/src/lints/proper_super_calls/proper_super_calls_rule.dart:94:41)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #1      _rootRunUnary (dart:async/zone.dart:1415:13)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #2      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #3      LinterVisitor._runSubscriptions (package:custom_lint_core/src/node_lint_visitor.g.dart:29:27)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #4      LinterVisitor.visitMethodDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:729:5)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #5      MethodDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:12141:50)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #6      NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #7      ClassDeclarationImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:2909:13)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #8      GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #9      LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #10     GeneralizingAstVisitor.visitAnnotatedNode (package:analyzer/dart/ast/visitor.dart:137:48)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #11     LinterVisitor.visitAnnotatedNode (package:custom_lint_core/src/node_lint_visitor.g.dart:46:11)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #12     GeneralizingAstVisitor.visitDeclaration (package:analyzer/dart/ast/visitor.dart:260:44)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #13     LinterVisitor.visitDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:286:11)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #14     GeneralizingAstVisitor.visitCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:222:7)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #15     LinterVisitor.visitCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:214:11)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #16     GeneralizingAstVisitor.visitNamedCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:516:7)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #17     LinterVisitor.visitNamedCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:748:11)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #18     GeneralizingAstVisitor.visitClassDeclaration (package:analyzer/dart/ast/visitor.dart:201:7)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #19     LinterVisitor.visitClassDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:166:11)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #20     ClassDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:2899:50)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #21     NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #22     CompilationUnitImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:3662:21)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #23     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #24     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #25     GeneralizingAstVisitor.visitCompilationUnit (package:analyzer/dart/ast/visitor.dart:219:52)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #26     LinterVisitor.visitCompilationUnit (package:custom_lint_core/src/node_lint_visitor.g.dart:208:11)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #27     CompilationUnitImpl.accept (package:analyzer/src/dart/ast/ast.dart:3655:50)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #28     DartLintRule.startUp.<anonymous closure> (package:custom_lint_core/src/lint_rule.dart:136:17)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #29     _rootRun (dart:async/zone.dart:1399:13)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #30     _CustomZone.run (dart:async/zone.dart:1301:19)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #31     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #32     runPostRunCallbacks (package:custom_lint_core/src/plugin_base.dart:16:19)
+[proper_super_calls] 2024-07-17T02:02:43.801933 #33     _ClientAnalyzerPlugin.analyzeFile.<anonymous closure> (package:custom_lint_builder/src/client.dart:924:7)
+[proper_super_calls] 2024-07-17T02:02:43.801933 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:43.801933 #34     _ClientAnalyzerPlugin._runOperation (package:custom_lint_builder/src/client.dart:1076:14)
+[proper_super_calls] 2024-07-17T02:02:43.801933 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:43.801933 #35     _ClientAnalyzerPlugin.analyzeFile (package:custom_lint_builder/src/client.dart:888:5)
+[proper_super_calls] 2024-07-17T02:02:43.801933 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:43.801933 #36     ServerPlugin.analyzeFiles (package:analyzer_plugin/plugin/plugin.dart:111:7)
+[proper_super_calls] 2024-07-17T02:02:43.801933 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:43.801933 #37     ServerPlugin.handleAffectedFiles (package:analyzer_plugin/plugin/plugin.dart:211:5)
+[proper_super_calls] 2024-07-17T02:02:43.801933 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:43.801933 #38     ServerPlugin.contentChanged.<anonymous closure> (package:analyzer_plugin/plugin/plugin.dart:141:9)
+[proper_super_calls] 2024-07-17T02:02:43.801933 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:43.801933 #39     ServerPlugin._forAnalysisContexts (package:analyzer_plugin/plugin/plugin.dart:510:9)
+[proper_super_calls] 2024-07-17T02:02:43.801933 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:43.801933 #40     ServerPlugin.contentChanged (package:analyzer_plugin/plugin/plugin.dart:136:7)
+[proper_super_calls] 2024-07-17T02:02:43.801933 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:43.801933 #41     ServerPlugin.handleAnalysisUpdateContent (package:analyzer_plugin/plugin/plugin.dart:353:5)
+[proper_super_calls] 2024-07-17T02:02:43.801933 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:43.801933 #42     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:548:18)
+[proper_super_calls] 2024-07-17T02:02:43.801933 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:43.801933 #43     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+[proper_super_calls] 2024-07-17T02:02:43.801933 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:43.801933
+[proper_super_calls] 2024-07-17T02:02:44.031561 Plugin proper_super_calls threw while analyzing C:\Users\ertad\StudioProjects\flutter_vlc\pigeons\messages.dart:
+[proper_super_calls] 2024-07-17T02:02:44.031561 type 'EmptyFunctionBodyImpl' is not a subtype of type 'BlockFunctionBody' in type cast
+[proper_super_calls] 2024-07-17T02:02:44.031561 #0      ProperSuperCallsRule.run.<anonymous closure> (package:solid_lints/src/lints/proper_super_calls/proper_super_calls_rule.dart:94:41)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #1      _rootRunUnary (dart:async/zone.dart:1415:13)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #2      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #3      LinterVisitor._runSubscriptions (package:custom_lint_core/src/node_lint_visitor.g.dart:29:27)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #4      LinterVisitor.visitMethodDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:729:5)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #5      MethodDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:12141:50)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #6      NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #7      ClassDeclarationImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:2909:13)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #8      GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #9      LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #10     GeneralizingAstVisitor.visitAnnotatedNode (package:analyzer/dart/ast/visitor.dart:137:48)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #11     LinterVisitor.visitAnnotatedNode (package:custom_lint_core/src/node_lint_visitor.g.dart:46:11)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #12     GeneralizingAstVisitor.visitDeclaration (package:analyzer/dart/ast/visitor.dart:260:44)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #13     LinterVisitor.visitDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:286:11)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #14     GeneralizingAstVisitor.visitCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:222:7)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #15     LinterVisitor.visitCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:214:11)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #16     GeneralizingAstVisitor.visitNamedCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:516:7)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #17     LinterVisitor.visitNamedCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:748:11)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #18     GeneralizingAstVisitor.visitClassDeclaration (package:analyzer/dart/ast/visitor.dart:201:7)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #19     LinterVisitor.visitClassDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:166:11)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #20     ClassDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:2899:50)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #21     NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #22     CompilationUnitImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:3662:21)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #23     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #24     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #25     GeneralizingAstVisitor.visitCompilationUnit (package:analyzer/dart/ast/visitor.dart:219:52)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #26     LinterVisitor.visitCompilationUnit (package:custom_lint_core/src/node_lint_visitor.g.dart:208:11)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #27     CompilationUnitImpl.accept (package:analyzer/src/dart/ast/ast.dart:3655:50)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #28     DartLintRule.startUp.<anonymous closure> (package:custom_lint_core/src/lint_rule.dart:136:17)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #29     _rootRun (dart:async/zone.dart:1399:13)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #30     _CustomZone.run (dart:async/zone.dart:1301:19)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #31     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #32     runPostRunCallbacks (package:custom_lint_core/src/plugin_base.dart:16:19)
+[proper_super_calls] 2024-07-17T02:02:44.031561 #33     _ClientAnalyzerPlugin.analyzeFile.<anonymous closure> (package:custom_lint_builder/src/client.dart:924:7)
+[proper_super_calls] 2024-07-17T02:02:44.031561 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.031561 #34     _ClientAnalyzerPlugin._runOperation (package:custom_lint_builder/src/client.dart:1076:14)
+[proper_super_calls] 2024-07-17T02:02:44.031561 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.031561 #35     _ClientAnalyzerPlugin.analyzeFile (package:custom_lint_builder/src/client.dart:888:5)
+[proper_super_calls] 2024-07-17T02:02:44.031561 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.031561 #36     ServerPlugin.analyzeFiles (package:analyzer_plugin/plugin/plugin.dart:111:7)
+[proper_super_calls] 2024-07-17T02:02:44.031561 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.031561 #37     ServerPlugin.handleAffectedFiles (package:analyzer_plugin/plugin/plugin.dart:211:5)
+[proper_super_calls] 2024-07-17T02:02:44.031561 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.031561 #38     ServerPlugin.contentChanged.<anonymous closure> (package:analyzer_plugin/plugin/plugin.dart:141:9)
+[proper_super_calls] 2024-07-17T02:02:44.031561 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.031561 #39     ServerPlugin._forAnalysisContexts (package:analyzer_plugin/plugin/plugin.dart:510:9)
+[proper_super_calls] 2024-07-17T02:02:44.031561 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.031561 #40     ServerPlugin.contentChanged (package:analyzer_plugin/plugin/plugin.dart:136:7)
+[proper_super_calls] 2024-07-17T02:02:44.031561 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.031561 #41     ServerPlugin.handleAnalysisUpdateContent (package:analyzer_plugin/plugin/plugin.dart:353:5)
+[proper_super_calls] 2024-07-17T02:02:44.031561 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.031561 #42     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:548:18)
+[proper_super_calls] 2024-07-17T02:02:44.031561 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.031561 #43     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+[proper_super_calls] 2024-07-17T02:02:44.031561 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.031561
+[proper_super_calls] 2024-07-17T02:02:44.291596 Plugin proper_super_calls threw while analyzing C:\Users\ertad\StudioProjects\flutter_vlc\pigeons\messages.dart:
+[proper_super_calls] 2024-07-17T02:02:44.291596 type 'EmptyFunctionBodyImpl' is not a subtype of type 'BlockFunctionBody' in type cast
+[proper_super_calls] 2024-07-17T02:02:44.291596 #0      ProperSuperCallsRule.run.<anonymous closure> (package:solid_lints/src/lints/proper_super_calls/proper_super_calls_rule.dart:94:41)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #1      _rootRunUnary (dart:async/zone.dart:1415:13)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #2      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #3      LinterVisitor._runSubscriptions (package:custom_lint_core/src/node_lint_visitor.g.dart:29:27)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #4      LinterVisitor.visitMethodDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:729:5)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #5      MethodDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:12141:50)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #6      NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #7      ClassDeclarationImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:2909:13)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #8      GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #9      LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #10     GeneralizingAstVisitor.visitAnnotatedNode (package:analyzer/dart/ast/visitor.dart:137:48)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #11     LinterVisitor.visitAnnotatedNode (package:custom_lint_core/src/node_lint_visitor.g.dart:46:11)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #12     GeneralizingAstVisitor.visitDeclaration (package:analyzer/dart/ast/visitor.dart:260:44)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #13     LinterVisitor.visitDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:286:11)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #14     GeneralizingAstVisitor.visitCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:222:7)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #15     LinterVisitor.visitCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:214:11)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #16     GeneralizingAstVisitor.visitNamedCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:516:7)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #17     LinterVisitor.visitNamedCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:748:11)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #18     GeneralizingAstVisitor.visitClassDeclaration (package:analyzer/dart/ast/visitor.dart:201:7)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #19     LinterVisitor.visitClassDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:166:11)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #20     ClassDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:2899:50)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #21     NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #22     CompilationUnitImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:3662:21)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #23     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #24     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #25     GeneralizingAstVisitor.visitCompilationUnit (package:analyzer/dart/ast/visitor.dart:219:52)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #26     LinterVisitor.visitCompilationUnit (package:custom_lint_core/src/node_lint_visitor.g.dart:208:11)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #27     CompilationUnitImpl.accept (package:analyzer/src/dart/ast/ast.dart:3655:50)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #28     DartLintRule.startUp.<anonymous closure> (package:custom_lint_core/src/lint_rule.dart:136:17)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #29     _rootRun (dart:async/zone.dart:1399:13)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #30     _CustomZone.run (dart:async/zone.dart:1301:19)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #31     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #32     runPostRunCallbacks (package:custom_lint_core/src/plugin_base.dart:16:19)
+[proper_super_calls] 2024-07-17T02:02:44.291596 #33     _ClientAnalyzerPlugin.analyzeFile.<anonymous closure> (package:custom_lint_builder/src/client.dart:924:7)
+[proper_super_calls] 2024-07-17T02:02:44.291596 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.291596 #34     _ClientAnalyzerPlugin._runOperation (package:custom_lint_builder/src/client.dart:1076:14)
+[proper_super_calls] 2024-07-17T02:02:44.291596 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.291596 #35     _ClientAnalyzerPlugin.analyzeFile (package:custom_lint_builder/src/client.dart:888:5)
+[proper_super_calls] 2024-07-17T02:02:44.291596 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.291596 #36     ServerPlugin.analyzeFiles (package:analyzer_plugin/plugin/plugin.dart:111:7)
+[proper_super_calls] 2024-07-17T02:02:44.291596 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.291596 #37     ServerPlugin.handleAffectedFiles (package:analyzer_plugin/plugin/plugin.dart:211:5)
+[proper_super_calls] 2024-07-17T02:02:44.291596 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.291596 #38     ServerPlugin.contentChanged.<anonymous closure> (package:analyzer_plugin/plugin/plugin.dart:141:9)
+[proper_super_calls] 2024-07-17T02:02:44.291596 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.291596 #39     ServerPlugin._forAnalysisContexts (package:analyzer_plugin/plugin/plugin.dart:510:9)
+[proper_super_calls] 2024-07-17T02:02:44.291596 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.291596 #40     ServerPlugin.contentChanged (package:analyzer_plugin/plugin/plugin.dart:136:7)
+[proper_super_calls] 2024-07-17T02:02:44.291596 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.291596 #41     ServerPlugin.handleAnalysisUpdateContent (package:analyzer_plugin/plugin/plugin.dart:353:5)
+[proper_super_calls] 2024-07-17T02:02:44.291596 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.291596 #42     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:548:18)
+[proper_super_calls] 2024-07-17T02:02:44.291596 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.291596 #43     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+[proper_super_calls] 2024-07-17T02:02:44.291596 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.291596
+[proper_super_calls] 2024-07-17T02:02:44.794231 Plugin proper_super_calls threw while analyzing C:\Users\ertad\StudioProjects\flutter_vlc\pigeons\messages.dart:
+[proper_super_calls] 2024-07-17T02:02:44.794231 type 'EmptyFunctionBodyImpl' is not a subtype of type 'BlockFunctionBody' in type cast
+[proper_super_calls] 2024-07-17T02:02:44.794231 #0      ProperSuperCallsRule.run.<anonymous closure> (package:solid_lints/src/lints/proper_super_calls/proper_super_calls_rule.dart:94:41)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #1      _rootRunUnary (dart:async/zone.dart:1415:13)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #2      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #3      LinterVisitor._runSubscriptions (package:custom_lint_core/src/node_lint_visitor.g.dart:29:27)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #4      LinterVisitor.visitMethodDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:729:5)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #5      MethodDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:12141:50)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #6      NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #7      ClassDeclarationImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:2909:13)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #8      GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #9      LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #10     GeneralizingAstVisitor.visitAnnotatedNode (package:analyzer/dart/ast/visitor.dart:137:48)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #11     LinterVisitor.visitAnnotatedNode (package:custom_lint_core/src/node_lint_visitor.g.dart:46:11)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #12     GeneralizingAstVisitor.visitDeclaration (package:analyzer/dart/ast/visitor.dart:260:44)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #13     LinterVisitor.visitDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:286:11)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #14     GeneralizingAstVisitor.visitCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:222:7)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #15     LinterVisitor.visitCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:214:11)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #16     GeneralizingAstVisitor.visitNamedCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:516:7)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #17     LinterVisitor.visitNamedCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:748:11)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #18     GeneralizingAstVisitor.visitClassDeclaration (package:analyzer/dart/ast/visitor.dart:201:7)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #19     LinterVisitor.visitClassDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:166:11)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #20     ClassDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:2899:50)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #21     NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #22     CompilationUnitImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:3662:21)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #23     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #24     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #25     GeneralizingAstVisitor.visitCompilationUnit (package:analyzer/dart/ast/visitor.dart:219:52)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #26     LinterVisitor.visitCompilationUnit (package:custom_lint_core/src/node_lint_visitor.g.dart:208:11)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #27     CompilationUnitImpl.accept (package:analyzer/src/dart/ast/ast.dart:3655:50)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #28     DartLintRule.startUp.<anonymous closure> (package:custom_lint_core/src/lint_rule.dart:136:17)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #29     _rootRun (dart:async/zone.dart:1399:13)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #30     _CustomZone.run (dart:async/zone.dart:1301:19)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #31     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #32     runPostRunCallbacks (package:custom_lint_core/src/plugin_base.dart:16:19)
+[proper_super_calls] 2024-07-17T02:02:44.794231 #33     _ClientAnalyzerPlugin.analyzeFile.<anonymous closure> (package:custom_lint_builder/src/client.dart:924:7)
+[proper_super_calls] 2024-07-17T02:02:44.794231 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.794231 #34     _ClientAnalyzerPlugin._runOperation (package:custom_lint_builder/src/client.dart:1076:14)
+[proper_super_calls] 2024-07-17T02:02:44.794231 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.794231 #35     _ClientAnalyzerPlugin.analyzeFile (package:custom_lint_builder/src/client.dart:888:5)
+[proper_super_calls] 2024-07-17T02:02:44.794231 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.794231 #36     ServerPlugin.analyzeFiles (package:analyzer_plugin/plugin/plugin.dart:111:7)
+[proper_super_calls] 2024-07-17T02:02:44.794231 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.794231 #37     ServerPlugin.handleAffectedFiles (package:analyzer_plugin/plugin/plugin.dart:211:5)
+[proper_super_calls] 2024-07-17T02:02:44.794231 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.794231 #38     ServerPlugin.contentChanged.<anonymous closure> (package:analyzer_plugin/plugin/plugin.dart:141:9)
+[proper_super_calls] 2024-07-17T02:02:44.794231 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.794231 #39     ServerPlugin._forAnalysisContexts (package:analyzer_plugin/plugin/plugin.dart:510:9)
+[proper_super_calls] 2024-07-17T02:02:44.794231 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.794231 #40     ServerPlugin.contentChanged (package:analyzer_plugin/plugin/plugin.dart:136:7)
+[proper_super_calls] 2024-07-17T02:02:44.794231 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.794231 #41     ServerPlugin.handleAnalysisUpdateContent (package:analyzer_plugin/plugin/plugin.dart:353:5)
+[proper_super_calls] 2024-07-17T02:02:44.794231 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.794231 #42     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:548:18)
+[proper_super_calls] 2024-07-17T02:02:44.794231 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.794231 #43     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+[proper_super_calls] 2024-07-17T02:02:44.794231 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:44.794231
+[proper_super_calls] 2024-07-17T02:02:46.011209 Plugin proper_super_calls threw while analyzing C:\Users\ertad\StudioProjects\flutter_vlc\pigeons\messages.dart:
+[proper_super_calls] 2024-07-17T02:02:46.011209 type 'EmptyFunctionBodyImpl' is not a subtype of type 'BlockFunctionBody' in type cast
+[proper_super_calls] 2024-07-17T02:02:46.011209 #0      ProperSuperCallsRule.run.<anonymous closure> (package:solid_lints/src/lints/proper_super_calls/proper_super_calls_rule.dart:94:41)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #1      _rootRunUnary (dart:async/zone.dart:1415:13)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #2      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #3      LinterVisitor._runSubscriptions (package:custom_lint_core/src/node_lint_visitor.g.dart:29:27)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #4      LinterVisitor.visitMethodDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:729:5)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #5      MethodDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:12141:50)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #6      NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #7      ClassDeclarationImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:2909:13)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #8      GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #9      LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #10     GeneralizingAstVisitor.visitAnnotatedNode (package:analyzer/dart/ast/visitor.dart:137:48)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #11     LinterVisitor.visitAnnotatedNode (package:custom_lint_core/src/node_lint_visitor.g.dart:46:11)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #12     GeneralizingAstVisitor.visitDeclaration (package:analyzer/dart/ast/visitor.dart:260:44)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #13     LinterVisitor.visitDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:286:11)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #14     GeneralizingAstVisitor.visitCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:222:7)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #15     LinterVisitor.visitCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:214:11)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #16     GeneralizingAstVisitor.visitNamedCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:516:7)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #17     LinterVisitor.visitNamedCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:748:11)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #18     GeneralizingAstVisitor.visitClassDeclaration (package:analyzer/dart/ast/visitor.dart:201:7)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #19     LinterVisitor.visitClassDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:166:11)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #20     ClassDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:2899:50)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #21     NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #22     CompilationUnitImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:3662:21)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #23     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #24     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #25     GeneralizingAstVisitor.visitCompilationUnit (package:analyzer/dart/ast/visitor.dart:219:52)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #26     LinterVisitor.visitCompilationUnit (package:custom_lint_core/src/node_lint_visitor.g.dart:208:11)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #27     CompilationUnitImpl.accept (package:analyzer/src/dart/ast/ast.dart:3655:50)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #28     DartLintRule.startUp.<anonymous closure> (package:custom_lint_core/src/lint_rule.dart:136:17)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #29     _rootRun (dart:async/zone.dart:1399:13)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #30     _CustomZone.run (dart:async/zone.dart:1301:19)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #31     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #32     runPostRunCallbacks (package:custom_lint_core/src/plugin_base.dart:16:19)
+[proper_super_calls] 2024-07-17T02:02:46.011209 #33     _ClientAnalyzerPlugin.analyzeFile.<anonymous closure> (package:custom_lint_builder/src/client.dart:924:7)
+[proper_super_calls] 2024-07-17T02:02:46.011209 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.011209 #34     _ClientAnalyzerPlugin._runOperation (package:custom_lint_builder/src/client.dart:1076:14)
+[proper_super_calls] 2024-07-17T02:02:46.011209 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.011209 #35     _ClientAnalyzerPlugin.analyzeFile (package:custom_lint_builder/src/client.dart:888:5)
+[proper_super_calls] 2024-07-17T02:02:46.011209 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.011209 #36     ServerPlugin.analyzeFiles (package:analyzer_plugin/plugin/plugin.dart:111:7)
+[proper_super_calls] 2024-07-17T02:02:46.011209 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.011209 #37     ServerPlugin.handleAffectedFiles (package:analyzer_plugin/plugin/plugin.dart:211:5)
+[proper_super_calls] 2024-07-17T02:02:46.011209 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.011209 #38     ServerPlugin.contentChanged.<anonymous closure> (package:analyzer_plugin/plugin/plugin.dart:141:9)
+[proper_super_calls] 2024-07-17T02:02:46.011209 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.011209 #39     ServerPlugin._forAnalysisContexts (package:analyzer_plugin/plugin/plugin.dart:510:9)
+[proper_super_calls] 2024-07-17T02:02:46.011209 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.011209 #40     ServerPlugin.contentChanged (package:analyzer_plugin/plugin/plugin.dart:136:7)
+[proper_super_calls] 2024-07-17T02:02:46.011209 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.011209 #41     ServerPlugin.handleAnalysisUpdateContent (package:analyzer_plugin/plugin/plugin.dart:353:5)
+[proper_super_calls] 2024-07-17T02:02:46.011209 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.011209 #42     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:548:18)
+[proper_super_calls] 2024-07-17T02:02:46.011209 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.011209 #43     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+[proper_super_calls] 2024-07-17T02:02:46.011209 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.011209
+[proper_super_calls] 2024-07-17T02:02:46.245900 Plugin proper_super_calls threw while analyzing C:\Users\ertad\StudioProjects\flutter_vlc\pigeons\messages.dart:
+[proper_super_calls] 2024-07-17T02:02:46.245900 type 'EmptyFunctionBodyImpl' is not a subtype of type 'BlockFunctionBody' in type cast
+[proper_super_calls] 2024-07-17T02:02:46.245900 #0      ProperSuperCallsRule.run.<anonymous closure> (package:solid_lints/src/lints/proper_super_calls/proper_super_calls_rule.dart:94:41)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #1      _rootRunUnary (dart:async/zone.dart:1415:13)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #2      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #3      LinterVisitor._runSubscriptions (package:custom_lint_core/src/node_lint_visitor.g.dart:29:27)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #4      LinterVisitor.visitMethodDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:729:5)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #5      MethodDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:12141:50)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #6      NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #7      ClassDeclarationImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:2909:13)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #8      GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #9      LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #10     GeneralizingAstVisitor.visitAnnotatedNode (package:analyzer/dart/ast/visitor.dart:137:48)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #11     LinterVisitor.visitAnnotatedNode (package:custom_lint_core/src/node_lint_visitor.g.dart:46:11)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #12     GeneralizingAstVisitor.visitDeclaration (package:analyzer/dart/ast/visitor.dart:260:44)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #13     LinterVisitor.visitDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:286:11)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #14     GeneralizingAstVisitor.visitCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:222:7)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #15     LinterVisitor.visitCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:214:11)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #16     GeneralizingAstVisitor.visitNamedCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:516:7)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #17     LinterVisitor.visitNamedCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:748:11)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #18     GeneralizingAstVisitor.visitClassDeclaration (package:analyzer/dart/ast/visitor.dart:201:7)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #19     LinterVisitor.visitClassDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:166:11)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #20     ClassDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:2899:50)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #21     NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #22     CompilationUnitImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:3662:21)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #23     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #24     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #25     GeneralizingAstVisitor.visitCompilationUnit (package:analyzer/dart/ast/visitor.dart:219:52)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #26     LinterVisitor.visitCompilationUnit (package:custom_lint_core/src/node_lint_visitor.g.dart:208:11)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #27     CompilationUnitImpl.accept (package:analyzer/src/dart/ast/ast.dart:3655:50)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #28     DartLintRule.startUp.<anonymous closure> (package:custom_lint_core/src/lint_rule.dart:136:17)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #29     _rootRun (dart:async/zone.dart:1399:13)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #30     _CustomZone.run (dart:async/zone.dart:1301:19)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #31     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #32     runPostRunCallbacks (package:custom_lint_core/src/plugin_base.dart:16:19)
+[proper_super_calls] 2024-07-17T02:02:46.245900 #33     _ClientAnalyzerPlugin.analyzeFile.<anonymous closure> (package:custom_lint_builder/src/client.dart:924:7)
+[proper_super_calls] 2024-07-17T02:02:46.245900 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.245900 #34     _ClientAnalyzerPlugin._runOperation (package:custom_lint_builder/src/client.dart:1076:14)
+[proper_super_calls] 2024-07-17T02:02:46.245900 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.245900 #35     _ClientAnalyzerPlugin.analyzeFile (package:custom_lint_builder/src/client.dart:888:5)
+[proper_super_calls] 2024-07-17T02:02:46.245900 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.245900 #36     ServerPlugin.analyzeFiles (package:analyzer_plugin/plugin/plugin.dart:111:7)
+[proper_super_calls] 2024-07-17T02:02:46.245900 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.245900 #37     ServerPlugin.handleAffectedFiles (package:analyzer_plugin/plugin/plugin.dart:211:5)
+[proper_super_calls] 2024-07-17T02:02:46.245900 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.245900 #38     ServerPlugin.contentChanged.<anonymous closure> (package:analyzer_plugin/plugin/plugin.dart:141:9)
+[proper_super_calls] 2024-07-17T02:02:46.245900 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.245900 #39     ServerPlugin._forAnalysisContexts (package:analyzer_plugin/plugin/plugin.dart:510:9)
+[proper_super_calls] 2024-07-17T02:02:46.245900 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.245900 #40     ServerPlugin.contentChanged (package:analyzer_plugin/plugin/plugin.dart:136:7)
+[proper_super_calls] 2024-07-17T02:02:46.245900 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.245900 #41     ServerPlugin.handleAnalysisUpdateContent (package:analyzer_plugin/plugin/plugin.dart:353:5)
+[proper_super_calls] 2024-07-17T02:02:46.245900 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.245900 #42     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:548:18)
+[proper_super_calls] 2024-07-17T02:02:46.245900 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.245900 #43     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+[proper_super_calls] 2024-07-17T02:02:46.245900 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.245900
+[proper_super_calls] 2024-07-17T02:02:46.513540 Plugin proper_super_calls threw while analyzing C:\Users\ertad\StudioProjects\flutter_vlc\pigeons\messages.dart:
+[proper_super_calls] 2024-07-17T02:02:46.513540 type 'EmptyFunctionBodyImpl' is not a subtype of type 'BlockFunctionBody' in type cast
+[proper_super_calls] 2024-07-17T02:02:46.513540 #0      ProperSuperCallsRule.run.<anonymous closure> (package:solid_lints/src/lints/proper_super_calls/proper_super_calls_rule.dart:94:41)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #1      _rootRunUnary (dart:async/zone.dart:1415:13)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #2      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #3      LinterVisitor._runSubscriptions (package:custom_lint_core/src/node_lint_visitor.g.dart:29:27)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #4      LinterVisitor.visitMethodDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:729:5)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #5      MethodDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:12141:50)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #6      NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #7      ClassDeclarationImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:2909:13)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #8      GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #9      LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #10     GeneralizingAstVisitor.visitAnnotatedNode (package:analyzer/dart/ast/visitor.dart:137:48)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #11     LinterVisitor.visitAnnotatedNode (package:custom_lint_core/src/node_lint_visitor.g.dart:46:11)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #12     GeneralizingAstVisitor.visitDeclaration (package:analyzer/dart/ast/visitor.dart:260:44)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #13     LinterVisitor.visitDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:286:11)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #14     GeneralizingAstVisitor.visitCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:222:7)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #15     LinterVisitor.visitCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:214:11)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #16     GeneralizingAstVisitor.visitNamedCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:516:7)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #17     LinterVisitor.visitNamedCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:748:11)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #18     GeneralizingAstVisitor.visitClassDeclaration (package:analyzer/dart/ast/visitor.dart:201:7)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #19     LinterVisitor.visitClassDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:166:11)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #20     ClassDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:2899:50)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #21     NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #22     CompilationUnitImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:3662:21)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #23     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #24     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #25     GeneralizingAstVisitor.visitCompilationUnit (package:analyzer/dart/ast/visitor.dart:219:52)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #26     LinterVisitor.visitCompilationUnit (package:custom_lint_core/src/node_lint_visitor.g.dart:208:11)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #27     CompilationUnitImpl.accept (package:analyzer/src/dart/ast/ast.dart:3655:50)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #28     DartLintRule.startUp.<anonymous closure> (package:custom_lint_core/src/lint_rule.dart:136:17)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #29     _rootRun (dart:async/zone.dart:1399:13)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #30     _CustomZone.run (dart:async/zone.dart:1301:19)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #31     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #32     runPostRunCallbacks (package:custom_lint_core/src/plugin_base.dart:16:19)
+[proper_super_calls] 2024-07-17T02:02:46.513540 #33     _ClientAnalyzerPlugin.analyzeFile.<anonymous closure> (package:custom_lint_builder/src/client.dart:924:7)
+[proper_super_calls] 2024-07-17T02:02:46.513540 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.513540 #34     _ClientAnalyzerPlugin._runOperation (package:custom_lint_builder/src/client.dart:1076:14)
+[proper_super_calls] 2024-07-17T02:02:46.513540 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.513540 #35     _ClientAnalyzerPlugin.analyzeFile (package:custom_lint_builder/src/client.dart:888:5)
+[proper_super_calls] 2024-07-17T02:02:46.513540 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.513540 #36     ServerPlugin.analyzeFiles (package:analyzer_plugin/plugin/plugin.dart:111:7)
+[proper_super_calls] 2024-07-17T02:02:46.513540 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.513540 #37     ServerPlugin.handleAffectedFiles (package:analyzer_plugin/plugin/plugin.dart:211:5)
+[proper_super_calls] 2024-07-17T02:02:46.513540 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.513540 #38     ServerPlugin.contentChanged.<anonymous closure> (package:analyzer_plugin/plugin/plugin.dart:141:9)
+[proper_super_calls] 2024-07-17T02:02:46.513540 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.513540 #39     ServerPlugin._forAnalysisContexts (package:analyzer_plugin/plugin/plugin.dart:510:9)
+[proper_super_calls] 2024-07-17T02:02:46.513540 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.513540 #40     ServerPlugin.contentChanged (package:analyzer_plugin/plugin/plugin.dart:136:7)
+[proper_super_calls] 2024-07-17T02:02:46.513540 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.513540 #41     ServerPlugin.handleAnalysisUpdateContent (package:analyzer_plugin/plugin/plugin.dart:353:5)
+[proper_super_calls] 2024-07-17T02:02:46.513540 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.513540 #42     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:548:18)
+[proper_super_calls] 2024-07-17T02:02:46.513540 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.513540 #43     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+[proper_super_calls] 2024-07-17T02:02:46.513540 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:46.513540
+[proper_super_calls] 2024-07-17T02:02:47.088787 Plugin proper_super_calls threw while analyzing C:\Users\ertad\StudioProjects\flutter_vlc\pigeons\messages.dart:
+[proper_super_calls] 2024-07-17T02:02:47.088787 type 'EmptyFunctionBodyImpl' is not a subtype of type 'BlockFunctionBody' in type cast
+[proper_super_calls] 2024-07-17T02:02:47.088787 #0      ProperSuperCallsRule.run.<anonymous closure> (package:solid_lints/src/lints/proper_super_calls/proper_super_calls_rule.dart:94:41)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #1      _rootRunUnary (dart:async/zone.dart:1415:13)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #2      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #3      LinterVisitor._runSubscriptions (package:custom_lint_core/src/node_lint_visitor.g.dart:29:27)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #4      LinterVisitor.visitMethodDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:729:5)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #5      MethodDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:12141:50)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #6      NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #7      ClassDeclarationImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:2909:13)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #8      GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #9      LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #10     GeneralizingAstVisitor.visitAnnotatedNode (package:analyzer/dart/ast/visitor.dart:137:48)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #11     LinterVisitor.visitAnnotatedNode (package:custom_lint_core/src/node_lint_visitor.g.dart:46:11)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #12     GeneralizingAstVisitor.visitDeclaration (package:analyzer/dart/ast/visitor.dart:260:44)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #13     LinterVisitor.visitDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:286:11)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #14     GeneralizingAstVisitor.visitCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:222:7)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #15     LinterVisitor.visitCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:214:11)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #16     GeneralizingAstVisitor.visitNamedCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:516:7)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #17     LinterVisitor.visitNamedCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:748:11)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #18     GeneralizingAstVisitor.visitClassDeclaration (package:analyzer/dart/ast/visitor.dart:201:7)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #19     LinterVisitor.visitClassDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:166:11)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #20     ClassDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:2899:50)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #21     NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #22     CompilationUnitImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:3662:21)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #23     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #24     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #25     GeneralizingAstVisitor.visitCompilationUnit (package:analyzer/dart/ast/visitor.dart:219:52)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #26     LinterVisitor.visitCompilationUnit (package:custom_lint_core/src/node_lint_visitor.g.dart:208:11)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #27     CompilationUnitImpl.accept (package:analyzer/src/dart/ast/ast.dart:3655:50)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #28     DartLintRule.startUp.<anonymous closure> (package:custom_lint_core/src/lint_rule.dart:136:17)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #29     _rootRun (dart:async/zone.dart:1399:13)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #30     _CustomZone.run (dart:async/zone.dart:1301:19)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #31     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #32     runPostRunCallbacks (package:custom_lint_core/src/plugin_base.dart:16:19)
+[proper_super_calls] 2024-07-17T02:02:47.088787 #33     _ClientAnalyzerPlugin.analyzeFile.<anonymous closure> (package:custom_lint_builder/src/client.dart:924:7)
+[proper_super_calls] 2024-07-17T02:02:47.088787 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:47.088787 #34     _ClientAnalyzerPlugin._runOperation (package:custom_lint_builder/src/client.dart:1076:14)
+[proper_super_calls] 2024-07-17T02:02:47.088787 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:47.088787 #35     _ClientAnalyzerPlugin.analyzeFile (package:custom_lint_builder/src/client.dart:888:5)
+[proper_super_calls] 2024-07-17T02:02:47.088787 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:47.088787 #36     ServerPlugin.analyzeFiles (package:analyzer_plugin/plugin/plugin.dart:111:7)
+[proper_super_calls] 2024-07-17T02:02:47.088787 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:47.088787 #37     ServerPlugin.handleAffectedFiles (package:analyzer_plugin/plugin/plugin.dart:211:5)
+[proper_super_calls] 2024-07-17T02:02:47.088787 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:47.088787 #38     ServerPlugin.contentChanged.<anonymous closure> (package:analyzer_plugin/plugin/plugin.dart:141:9)
+[proper_super_calls] 2024-07-17T02:02:47.088787 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:47.088787 #39     ServerPlugin._forAnalysisContexts (package:analyzer_plugin/plugin/plugin.dart:510:9)
+[proper_super_calls] 2024-07-17T02:02:47.088787 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:47.088787 #40     ServerPlugin.contentChanged (package:analyzer_plugin/plugin/plugin.dart:136:7)
+[proper_super_calls] 2024-07-17T02:02:47.088787 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:47.088787 #41     ServerPlugin.handleAnalysisUpdateContent (package:analyzer_plugin/plugin/plugin.dart:353:5)
+[proper_super_calls] 2024-07-17T02:02:47.088787 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:47.088787 #42     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:548:18)
+[proper_super_calls] 2024-07-17T02:02:47.088787 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:47.088787 #43     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+[proper_super_calls] 2024-07-17T02:02:47.088787 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:47.088787
+[proper_super_calls] 2024-07-17T02:02:47.631350 Plugin proper_super_calls threw while analyzing C:\Users\ertad\StudioProjects\flutter_vlc\pigeons\messages.dart:
+[proper_super_calls] 2024-07-17T02:02:47.631350 type 'EmptyFunctionBodyImpl' is not a subtype of type 'BlockFunctionBody' in type cast
+[proper_super_calls] 2024-07-17T02:02:47.631350 #0      ProperSuperCallsRule.run.<anonymous closure> (package:solid_lints/src/lints/proper_super_calls/proper_super_calls_rule.dart:94:41)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #1      _rootRunUnary (dart:async/zone.dart:1415:13)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #2      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #3      LinterVisitor._runSubscriptions (package:custom_lint_core/src/node_lint_visitor.g.dart:29:27)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #4      LinterVisitor.visitMethodDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:729:5)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #5      MethodDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:12141:50)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #6      NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #7      ClassDeclarationImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:2909:13)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #8      GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #9      LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #10     GeneralizingAstVisitor.visitAnnotatedNode (package:analyzer/dart/ast/visitor.dart:137:48)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #11     LinterVisitor.visitAnnotatedNode (package:custom_lint_core/src/node_lint_visitor.g.dart:46:11)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #12     GeneralizingAstVisitor.visitDeclaration (package:analyzer/dart/ast/visitor.dart:260:44)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #13     LinterVisitor.visitDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:286:11)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #14     GeneralizingAstVisitor.visitCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:222:7)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #15     LinterVisitor.visitCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:214:11)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #16     GeneralizingAstVisitor.visitNamedCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:516:7)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #17     LinterVisitor.visitNamedCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:748:11)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #18     GeneralizingAstVisitor.visitClassDeclaration (package:analyzer/dart/ast/visitor.dart:201:7)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #19     LinterVisitor.visitClassDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:166:11)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #20     ClassDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:2899:50)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #21     NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #22     CompilationUnitImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:3662:21)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #23     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #24     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #25     GeneralizingAstVisitor.visitCompilationUnit (package:analyzer/dart/ast/visitor.dart:219:52)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #26     LinterVisitor.visitCompilationUnit (package:custom_lint_core/src/node_lint_visitor.g.dart:208:11)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #27     CompilationUnitImpl.accept (package:analyzer/src/dart/ast/ast.dart:3655:50)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #28     DartLintRule.startUp.<anonymous closure> (package:custom_lint_core/src/lint_rule.dart:136:17)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #29     _rootRun (dart:async/zone.dart:1399:13)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #30     _CustomZone.run (dart:async/zone.dart:1301:19)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #31     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #32     runPostRunCallbacks (package:custom_lint_core/src/plugin_base.dart:16:19)
+[proper_super_calls] 2024-07-17T02:02:47.631350 #33     _ClientAnalyzerPlugin.analyzeFile.<anonymous closure> (package:custom_lint_builder/src/client.dart:924:7)
+[proper_super_calls] 2024-07-17T02:02:47.631350 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:47.631350 #34     _ClientAnalyzerPlugin._runOperation (package:custom_lint_builder/src/client.dart:1076:14)
+[proper_super_calls] 2024-07-17T02:02:47.631350 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:47.631350 #35     _ClientAnalyzerPlugin.analyzeFile (package:custom_lint_builder/src/client.dart:888:5)
+[proper_super_calls] 2024-07-17T02:02:47.631350 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:47.631350 #36     ServerPlugin.analyzeFiles (package:analyzer_plugin/plugin/plugin.dart:111:7)
+[proper_super_calls] 2024-07-17T02:02:47.631350 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:47.631350 #37     ServerPlugin.handleAffectedFiles (package:analyzer_plugin/plugin/plugin.dart:211:5)
+[proper_super_calls] 2024-07-17T02:02:47.631350 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:47.631350 #38     ServerPlugin.contentChanged.<anonymous closure> (package:analyzer_plugin/plugin/plugin.dart:141:9)
+[proper_super_calls] 2024-07-17T02:02:47.631350 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:47.631350 #39     ServerPlugin._forAnalysisContexts (package:analyzer_plugin/plugin/plugin.dart:510:9)
+[proper_super_calls] 2024-07-17T02:02:47.631350 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:47.631350 #40     ServerPlugin.contentChanged (package:analyzer_plugin/plugin/plugin.dart:136:7)
+[proper_super_calls] 2024-07-17T02:02:47.631350 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:47.631350 #41     ServerPlugin.handleAnalysisUpdateContent (package:analyzer_plugin/plugin/plugin.dart:353:5)
+[proper_super_calls] 2024-07-17T02:02:47.631350 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:47.631350 #42     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:548:18)
+[proper_super_calls] 2024-07-17T02:02:47.631350 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:47.631350 #43     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+[proper_super_calls] 2024-07-17T02:02:47.631350 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:47.631350
+[proper_super_calls] 2024-07-17T02:02:48.049152 Plugin proper_super_calls threw while analyzing C:\Users\ertad\StudioProjects\flutter_vlc\pigeons\messages.dart:
+[proper_super_calls] 2024-07-17T02:02:48.049152 type 'EmptyFunctionBodyImpl' is not a subtype of type 'BlockFunctionBody' in type cast
+[proper_super_calls] 2024-07-17T02:02:48.049152 #0      ProperSuperCallsRule.run.<anonymous closure> (package:solid_lints/src/lints/proper_super_calls/proper_super_calls_rule.dart:94:41)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #1      _rootRunUnary (dart:async/zone.dart:1415:13)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #2      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #3      LinterVisitor._runSubscriptions (package:custom_lint_core/src/node_lint_visitor.g.dart:29:27)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #4      LinterVisitor.visitMethodDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:729:5)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #5      MethodDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:12141:50)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #6      NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #7      ClassDeclarationImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:2909:13)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #8      GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #9      LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #10     GeneralizingAstVisitor.visitAnnotatedNode (package:analyzer/dart/ast/visitor.dart:137:48)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #11     LinterVisitor.visitAnnotatedNode (package:custom_lint_core/src/node_lint_visitor.g.dart:46:11)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #12     GeneralizingAstVisitor.visitDeclaration (package:analyzer/dart/ast/visitor.dart:260:44)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #13     LinterVisitor.visitDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:286:11)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #14     GeneralizingAstVisitor.visitCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:222:7)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #15     LinterVisitor.visitCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:214:11)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #16     GeneralizingAstVisitor.visitNamedCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:516:7)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #17     LinterVisitor.visitNamedCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:748:11)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #18     GeneralizingAstVisitor.visitClassDeclaration (package:analyzer/dart/ast/visitor.dart:201:7)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #19     LinterVisitor.visitClassDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:166:11)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #20     ClassDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:2899:50)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #21     NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #22     CompilationUnitImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:3662:21)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #23     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #24     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #25     GeneralizingAstVisitor.visitCompilationUnit (package:analyzer/dart/ast/visitor.dart:219:52)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #26     LinterVisitor.visitCompilationUnit (package:custom_lint_core/src/node_lint_visitor.g.dart:208:11)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #27     CompilationUnitImpl.accept (package:analyzer/src/dart/ast/ast.dart:3655:50)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #28     DartLintRule.startUp.<anonymous closure> (package:custom_lint_core/src/lint_rule.dart:136:17)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #29     _rootRun (dart:async/zone.dart:1399:13)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #30     _CustomZone.run (dart:async/zone.dart:1301:19)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #31     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #32     runPostRunCallbacks (package:custom_lint_core/src/plugin_base.dart:16:19)
+[proper_super_calls] 2024-07-17T02:02:48.049152 #33     _ClientAnalyzerPlugin.analyzeFile.<anonymous closure> (package:custom_lint_builder/src/client.dart:924:7)
+[proper_super_calls] 2024-07-17T02:02:48.049152 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:48.049152 #34     _ClientAnalyzerPlugin._runOperation (package:custom_lint_builder/src/client.dart:1076:14)
+[proper_super_calls] 2024-07-17T02:02:48.049152 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:48.049152 #35     _ClientAnalyzerPlugin.analyzeFile (package:custom_lint_builder/src/client.dart:888:5)
+[proper_super_calls] 2024-07-17T02:02:48.049152 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:48.049152 #36     ServerPlugin.analyzeFiles (package:analyzer_plugin/plugin/plugin.dart:111:7)
+[proper_super_calls] 2024-07-17T02:02:48.049152 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:48.049152 #37     ServerPlugin.handleAffectedFiles (package:analyzer_plugin/plugin/plugin.dart:211:5)
+[proper_super_calls] 2024-07-17T02:02:48.049152 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:48.049152 #38     ServerPlugin.contentChanged.<anonymous closure> (package:analyzer_plugin/plugin/plugin.dart:141:9)
+[proper_super_calls] 2024-07-17T02:02:48.049152 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:48.049152 #39     ServerPlugin._forAnalysisContexts (package:analyzer_plugin/plugin/plugin.dart:510:9)
+[proper_super_calls] 2024-07-17T02:02:48.049152 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:48.049152 #40     ServerPlugin.contentChanged (package:analyzer_plugin/plugin/plugin.dart:136:7)
+[proper_super_calls] 2024-07-17T02:02:48.049152 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:48.049152 #41     ServerPlugin.handleAnalysisUpdateContent (package:analyzer_plugin/plugin/plugin.dart:353:5)
+[proper_super_calls] 2024-07-17T02:02:48.049152 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:48.049152 #42     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:548:18)
+[proper_super_calls] 2024-07-17T02:02:48.049152 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:48.049152 #43     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+[proper_super_calls] 2024-07-17T02:02:48.049152 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:48.049152
+[proper_super_calls] 2024-07-17T02:02:51.993213 Plugin proper_super_calls threw while analyzing C:\Users\ertad\StudioProjects\flutter_vlc\pigeons\messages.dart:
+[proper_super_calls] 2024-07-17T02:02:51.993213 type 'EmptyFunctionBodyImpl' is not a subtype of type 'BlockFunctionBody' in type cast
+[proper_super_calls] 2024-07-17T02:02:51.993213 #0      ProperSuperCallsRule.run.<anonymous closure> (package:solid_lints/src/lints/proper_super_calls/proper_super_calls_rule.dart:94:41)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #1      _rootRunUnary (dart:async/zone.dart:1415:13)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #2      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #3      LinterVisitor._runSubscriptions (package:custom_lint_core/src/node_lint_visitor.g.dart:29:27)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #4      LinterVisitor.visitMethodDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:729:5)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #5      MethodDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:12141:50)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #6      NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #7      ClassDeclarationImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:2909:13)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #8      GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #9      LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #10     GeneralizingAstVisitor.visitAnnotatedNode (package:analyzer/dart/ast/visitor.dart:137:48)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #11     LinterVisitor.visitAnnotatedNode (package:custom_lint_core/src/node_lint_visitor.g.dart:46:11)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #12     GeneralizingAstVisitor.visitDeclaration (package:analyzer/dart/ast/visitor.dart:260:44)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #13     LinterVisitor.visitDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:286:11)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #14     GeneralizingAstVisitor.visitCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:222:7)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #15     LinterVisitor.visitCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:214:11)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #16     GeneralizingAstVisitor.visitNamedCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:516:7)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #17     LinterVisitor.visitNamedCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:748:11)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #18     GeneralizingAstVisitor.visitClassDeclaration (package:analyzer/dart/ast/visitor.dart:201:7)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #19     LinterVisitor.visitClassDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:166:11)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #20     ClassDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:2899:50)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #21     NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #22     CompilationUnitImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:3662:21)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #23     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #24     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #25     GeneralizingAstVisitor.visitCompilationUnit (package:analyzer/dart/ast/visitor.dart:219:52)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #26     LinterVisitor.visitCompilationUnit (package:custom_lint_core/src/node_lint_visitor.g.dart:208:11)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #27     CompilationUnitImpl.accept (package:analyzer/src/dart/ast/ast.dart:3655:50)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #28     DartLintRule.startUp.<anonymous closure> (package:custom_lint_core/src/lint_rule.dart:136:17)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #29     _rootRun (dart:async/zone.dart:1399:13)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #30     _CustomZone.run (dart:async/zone.dart:1301:19)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #31     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #32     runPostRunCallbacks (package:custom_lint_core/src/plugin_base.dart:16:19)
+[proper_super_calls] 2024-07-17T02:02:51.993213 #33     _ClientAnalyzerPlugin.analyzeFile.<anonymous closure> (package:custom_lint_builder/src/client.dart:924:7)
+[proper_super_calls] 2024-07-17T02:02:51.993213 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:51.993213 #34     _ClientAnalyzerPlugin._runOperation (package:custom_lint_builder/src/client.dart:1076:14)
+[proper_super_calls] 2024-07-17T02:02:51.993213 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:51.993213 #35     _ClientAnalyzerPlugin.analyzeFile (package:custom_lint_builder/src/client.dart:888:5)
+[proper_super_calls] 2024-07-17T02:02:51.993213 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:51.993213 #36     ServerPlugin.analyzeFiles (package:analyzer_plugin/plugin/plugin.dart:111:7)
+[proper_super_calls] 2024-07-17T02:02:51.993213 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:51.993213 #37     ServerPlugin.handleAffectedFiles (package:analyzer_plugin/plugin/plugin.dart:211:5)
+[proper_super_calls] 2024-07-17T02:02:51.993213 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:51.993213 #38     ServerPlugin.contentChanged.<anonymous closure> (package:analyzer_plugin/plugin/plugin.dart:141:9)
+[proper_super_calls] 2024-07-17T02:02:51.993213 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:51.993213 #39     ServerPlugin._forAnalysisContexts (package:analyzer_plugin/plugin/plugin.dart:510:9)
+[proper_super_calls] 2024-07-17T02:02:51.993213 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:51.993213 #40     ServerPlugin.contentChanged (package:analyzer_plugin/plugin/plugin.dart:136:7)
+[proper_super_calls] 2024-07-17T02:02:51.993213 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:51.993213 #41     ServerPlugin.handleAnalysisUpdateContent (package:analyzer_plugin/plugin/plugin.dart:353:5)
+[proper_super_calls] 2024-07-17T02:02:51.993213 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:51.993213 #42     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:548:18)
+[proper_super_calls] 2024-07-17T02:02:51.993213 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:51.993213 #43     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+[proper_super_calls] 2024-07-17T02:02:51.993213 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:51.993213
+[proper_super_calls] 2024-07-17T02:02:55.036401 Plugin proper_super_calls threw while analyzing C:\Users\ertad\StudioProjects\flutter_vlc\pigeons\messages.dart:
+[proper_super_calls] 2024-07-17T02:02:55.036401 type 'EmptyFunctionBodyImpl' is not a subtype of type 'BlockFunctionBody' in type cast
+[proper_super_calls] 2024-07-17T02:02:55.036401 #0      ProperSuperCallsRule.run.<anonymous closure> (package:solid_lints/src/lints/proper_super_calls/proper_super_calls_rule.dart:94:41)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #1      _rootRunUnary (dart:async/zone.dart:1415:13)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #2      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #3      LinterVisitor._runSubscriptions (package:custom_lint_core/src/node_lint_visitor.g.dart:29:27)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #4      LinterVisitor.visitMethodDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:729:5)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #5      MethodDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:12141:50)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #6      NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #7      ClassDeclarationImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:2909:13)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #8      GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #9      LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #10     GeneralizingAstVisitor.visitAnnotatedNode (package:analyzer/dart/ast/visitor.dart:137:48)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #11     LinterVisitor.visitAnnotatedNode (package:custom_lint_core/src/node_lint_visitor.g.dart:46:11)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #12     GeneralizingAstVisitor.visitDeclaration (package:analyzer/dart/ast/visitor.dart:260:44)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #13     LinterVisitor.visitDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:286:11)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #14     GeneralizingAstVisitor.visitCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:222:7)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #15     LinterVisitor.visitCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:214:11)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #16     GeneralizingAstVisitor.visitNamedCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:516:7)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #17     LinterVisitor.visitNamedCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:748:11)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #18     GeneralizingAstVisitor.visitClassDeclaration (package:analyzer/dart/ast/visitor.dart:201:7)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #19     LinterVisitor.visitClassDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:166:11)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #20     ClassDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:2899:50)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #21     NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #22     CompilationUnitImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:3662:21)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #23     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #24     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #25     GeneralizingAstVisitor.visitCompilationUnit (package:analyzer/dart/ast/visitor.dart:219:52)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #26     LinterVisitor.visitCompilationUnit (package:custom_lint_core/src/node_lint_visitor.g.dart:208:11)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #27     CompilationUnitImpl.accept (package:analyzer/src/dart/ast/ast.dart:3655:50)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #28     DartLintRule.startUp.<anonymous closure> (package:custom_lint_core/src/lint_rule.dart:136:17)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #29     _rootRun (dart:async/zone.dart:1399:13)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #30     _CustomZone.run (dart:async/zone.dart:1301:19)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #31     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #32     runPostRunCallbacks (package:custom_lint_core/src/plugin_base.dart:16:19)
+[proper_super_calls] 2024-07-17T02:02:55.036401 #33     _ClientAnalyzerPlugin.analyzeFile.<anonymous closure> (package:custom_lint_builder/src/client.dart:924:7)
+[proper_super_calls] 2024-07-17T02:02:55.036401 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:55.036401 #34     _ClientAnalyzerPlugin._runOperation (package:custom_lint_builder/src/client.dart:1076:14)
+[proper_super_calls] 2024-07-17T02:02:55.036401 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:55.036401 #35     _ClientAnalyzerPlugin.analyzeFile (package:custom_lint_builder/src/client.dart:888:5)
+[proper_super_calls] 2024-07-17T02:02:55.036401 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:55.036401 #36     ServerPlugin.analyzeFiles (package:analyzer_plugin/plugin/plugin.dart:111:7)
+[proper_super_calls] 2024-07-17T02:02:55.036401 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:55.036401 #37     ServerPlugin.handleAffectedFiles (package:analyzer_plugin/plugin/plugin.dart:211:5)
+[proper_super_calls] 2024-07-17T02:02:55.036401 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:55.036401 #38     ServerPlugin.contentChanged.<anonymous closure> (package:analyzer_plugin/plugin/plugin.dart:141:9)
+[proper_super_calls] 2024-07-17T02:02:55.036401 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:55.036401 #39     ServerPlugin._forAnalysisContexts (package:analyzer_plugin/plugin/plugin.dart:510:9)
+[proper_super_calls] 2024-07-17T02:02:55.036401 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:55.036401 #40     ServerPlugin.contentChanged (package:analyzer_plugin/plugin/plugin.dart:136:7)
+[proper_super_calls] 2024-07-17T02:02:55.036401 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:55.036401 #41     ServerPlugin.handleAnalysisUpdateContent (package:analyzer_plugin/plugin/plugin.dart:353:5)
+[proper_super_calls] 2024-07-17T02:02:55.036401 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:55.036401 #42     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:548:18)
+[proper_super_calls] 2024-07-17T02:02:55.036401 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:55.036401 #43     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+[proper_super_calls] 2024-07-17T02:02:55.036401 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:55.036401
+[proper_super_calls] 2024-07-17T02:02:56.398386 Plugin proper_super_calls threw while analyzing C:\Users\ertad\StudioProjects\flutter_vlc\pigeons\messages.dart:
+[proper_super_calls] 2024-07-17T02:02:56.398386 type 'EmptyFunctionBodyImpl' is not a subtype of type 'BlockFunctionBody' in type cast
+[proper_super_calls] 2024-07-17T02:02:56.398386 #0      ProperSuperCallsRule.run.<anonymous closure> (package:solid_lints/src/lints/proper_super_calls/proper_super_calls_rule.dart:94:41)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #1      _rootRunUnary (dart:async/zone.dart:1415:13)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #2      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #3      LinterVisitor._runSubscriptions (package:custom_lint_core/src/node_lint_visitor.g.dart:29:27)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #4      LinterVisitor.visitMethodDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:729:5)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #5      MethodDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:12141:50)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #6      NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #7      ClassDeclarationImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:2909:13)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #8      GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #9      LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #10     GeneralizingAstVisitor.visitAnnotatedNode (package:analyzer/dart/ast/visitor.dart:137:48)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #11     LinterVisitor.visitAnnotatedNode (package:custom_lint_core/src/node_lint_visitor.g.dart:46:11)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #12     GeneralizingAstVisitor.visitDeclaration (package:analyzer/dart/ast/visitor.dart:260:44)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #13     LinterVisitor.visitDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:286:11)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #14     GeneralizingAstVisitor.visitCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:222:7)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #15     LinterVisitor.visitCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:214:11)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #16     GeneralizingAstVisitor.visitNamedCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:516:7)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #17     LinterVisitor.visitNamedCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:748:11)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #18     GeneralizingAstVisitor.visitClassDeclaration (package:analyzer/dart/ast/visitor.dart:201:7)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #19     LinterVisitor.visitClassDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:166:11)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #20     ClassDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:2899:50)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #21     NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #22     CompilationUnitImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:3662:21)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #23     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #24     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #25     GeneralizingAstVisitor.visitCompilationUnit (package:analyzer/dart/ast/visitor.dart:219:52)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #26     LinterVisitor.visitCompilationUnit (package:custom_lint_core/src/node_lint_visitor.g.dart:208:11)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #27     CompilationUnitImpl.accept (package:analyzer/src/dart/ast/ast.dart:3655:50)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #28     DartLintRule.startUp.<anonymous closure> (package:custom_lint_core/src/lint_rule.dart:136:17)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #29     _rootRun (dart:async/zone.dart:1399:13)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #30     _CustomZone.run (dart:async/zone.dart:1301:19)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #31     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #32     runPostRunCallbacks (package:custom_lint_core/src/plugin_base.dart:16:19)
+[proper_super_calls] 2024-07-17T02:02:56.398386 #33     _ClientAnalyzerPlugin.analyzeFile.<anonymous closure> (package:custom_lint_builder/src/client.dart:924:7)
+[proper_super_calls] 2024-07-17T02:02:56.398386 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:56.398386 #34     _ClientAnalyzerPlugin._runOperation (package:custom_lint_builder/src/client.dart:1076:14)
+[proper_super_calls] 2024-07-17T02:02:56.398386 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:56.398386 #35     _ClientAnalyzerPlugin.analyzeFile (package:custom_lint_builder/src/client.dart:888:5)
+[proper_super_calls] 2024-07-17T02:02:56.398386 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:56.398386 #36     ServerPlugin.analyzeFiles (package:analyzer_plugin/plugin/plugin.dart:111:7)
+[proper_super_calls] 2024-07-17T02:02:56.398386 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:56.398386 #37     ServerPlugin.handleAffectedFiles (package:analyzer_plugin/plugin/plugin.dart:211:5)
+[proper_super_calls] 2024-07-17T02:02:56.398386 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:56.398386 #38     ServerPlugin.contentChanged.<anonymous closure> (package:analyzer_plugin/plugin/plugin.dart:141:9)
+[proper_super_calls] 2024-07-17T02:02:56.398386 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:56.398386 #39     ServerPlugin._forAnalysisContexts (package:analyzer_plugin/plugin/plugin.dart:510:9)
+[proper_super_calls] 2024-07-17T02:02:56.398386 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:56.398386 #40     ServerPlugin.contentChanged (package:analyzer_plugin/plugin/plugin.dart:136:7)
+[proper_super_calls] 2024-07-17T02:02:56.398386 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:56.398386 #41     ServerPlugin.handleAnalysisUpdateContent (package:analyzer_plugin/plugin/plugin.dart:353:5)
+[proper_super_calls] 2024-07-17T02:02:56.398386 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:56.398386 #42     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:548:18)
+[proper_super_calls] 2024-07-17T02:02:56.398386 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:56.398386 #43     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+[proper_super_calls] 2024-07-17T02:02:56.398386 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:56.398386
+[proper_super_calls] 2024-07-17T02:02:58.128898 Plugin proper_super_calls threw while analyzing C:\Users\ertad\StudioProjects\flutter_vlc\pigeons\messages.dart:
+[proper_super_calls] 2024-07-17T02:02:58.128898 type 'EmptyFunctionBodyImpl' is not a subtype of type 'BlockFunctionBody' in type cast
+[proper_super_calls] 2024-07-17T02:02:58.128898 #0      ProperSuperCallsRule.run.<anonymous closure> (package:solid_lints/src/lints/proper_super_calls/proper_super_calls_rule.dart:94:41)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #1      _rootRunUnary (dart:async/zone.dart:1415:13)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #2      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #3      LinterVisitor._runSubscriptions (package:custom_lint_core/src/node_lint_visitor.g.dart:29:27)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #4      LinterVisitor.visitMethodDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:729:5)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #5      MethodDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:12141:50)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #6      NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #7      ClassDeclarationImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:2909:13)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #8      GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #9      LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #10     GeneralizingAstVisitor.visitAnnotatedNode (package:analyzer/dart/ast/visitor.dart:137:48)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #11     LinterVisitor.visitAnnotatedNode (package:custom_lint_core/src/node_lint_visitor.g.dart:46:11)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #12     GeneralizingAstVisitor.visitDeclaration (package:analyzer/dart/ast/visitor.dart:260:44)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #13     LinterVisitor.visitDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:286:11)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #14     GeneralizingAstVisitor.visitCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:222:7)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #15     LinterVisitor.visitCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:214:11)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #16     GeneralizingAstVisitor.visitNamedCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:516:7)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #17     LinterVisitor.visitNamedCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:748:11)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #18     GeneralizingAstVisitor.visitClassDeclaration (package:analyzer/dart/ast/visitor.dart:201:7)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #19     LinterVisitor.visitClassDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:166:11)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #20     ClassDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:2899:50)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #21     NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #22     CompilationUnitImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:3662:21)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #23     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #24     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #25     GeneralizingAstVisitor.visitCompilationUnit (package:analyzer/dart/ast/visitor.dart:219:52)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #26     LinterVisitor.visitCompilationUnit (package:custom_lint_core/src/node_lint_visitor.g.dart:208:11)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #27     CompilationUnitImpl.accept (package:analyzer/src/dart/ast/ast.dart:3655:50)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #28     DartLintRule.startUp.<anonymous closure> (package:custom_lint_core/src/lint_rule.dart:136:17)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #29     _rootRun (dart:async/zone.dart:1399:13)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #30     _CustomZone.run (dart:async/zone.dart:1301:19)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #31     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #32     runPostRunCallbacks (package:custom_lint_core/src/plugin_base.dart:16:19)
+[proper_super_calls] 2024-07-17T02:02:58.128898 #33     _ClientAnalyzerPlugin.analyzeFile.<anonymous closure> (package:custom_lint_builder/src/client.dart:924:7)
+[proper_super_calls] 2024-07-17T02:02:58.128898 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.128898 #34     _ClientAnalyzerPlugin._runOperation (package:custom_lint_builder/src/client.dart:1076:14)
+[proper_super_calls] 2024-07-17T02:02:58.128898 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.128898 #35     _ClientAnalyzerPlugin.analyzeFile (package:custom_lint_builder/src/client.dart:888:5)
+[proper_super_calls] 2024-07-17T02:02:58.128898 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.128898 #36     ServerPlugin.analyzeFiles (package:analyzer_plugin/plugin/plugin.dart:119:7)
+[proper_super_calls] 2024-07-17T02:02:58.128898 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.128898 #37     ServerPlugin.handleAffectedFiles (package:analyzer_plugin/plugin/plugin.dart:211:5)
+[proper_super_calls] 2024-07-17T02:02:58.128898 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.128898 #38     ServerPlugin.contentChanged.<anonymous closure> (package:analyzer_plugin/plugin/plugin.dart:141:9)
+[proper_super_calls] 2024-07-17T02:02:58.128898 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.128898 #39     ServerPlugin._forAnalysisContexts (package:analyzer_plugin/plugin/plugin.dart:517:7)
+[proper_super_calls] 2024-07-17T02:02:58.128898 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.128898 #40     ServerPlugin.contentChanged (package:analyzer_plugin/plugin/plugin.dart:136:7)
+[proper_super_calls] 2024-07-17T02:02:58.128898 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.128898 #41     ServerPlugin.handleAnalysisUpdateContent (package:analyzer_plugin/plugin/plugin.dart:353:5)
+[proper_super_calls] 2024-07-17T02:02:58.128898 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.128898 #42     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:548:18)
+[proper_super_calls] 2024-07-17T02:02:58.128898 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.128898 #43     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+[proper_super_calls] 2024-07-17T02:02:58.128898 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.128898
+[proper_super_calls] 2024-07-17T02:02:58.140062 Plugin proper_super_calls threw while analyzing C:\Users\ertad\StudioProjects\flutter_vlc\pigeons\messages.dart:
+[proper_super_calls] 2024-07-17T02:02:58.140062 type 'EmptyFunctionBodyImpl' is not a subtype of type 'BlockFunctionBody' in type cast
+[proper_super_calls] 2024-07-17T02:02:58.140062 #0      ProperSuperCallsRule.run.<anonymous closure> (package:solid_lints/src/lints/proper_super_calls/proper_super_calls_rule.dart:94:41)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #1      _rootRunUnary (dart:async/zone.dart:1415:13)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #2      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #3      LinterVisitor._runSubscriptions (package:custom_lint_core/src/node_lint_visitor.g.dart:29:27)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #4      LinterVisitor.visitMethodDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:729:5)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #5      MethodDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:12141:50)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #6      NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #7      ClassDeclarationImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:2909:13)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #8      GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #9      LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #10     GeneralizingAstVisitor.visitAnnotatedNode (package:analyzer/dart/ast/visitor.dart:137:48)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #11     LinterVisitor.visitAnnotatedNode (package:custom_lint_core/src/node_lint_visitor.g.dart:46:11)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #12     GeneralizingAstVisitor.visitDeclaration (package:analyzer/dart/ast/visitor.dart:260:44)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #13     LinterVisitor.visitDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:286:11)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #14     GeneralizingAstVisitor.visitCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:222:7)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #15     LinterVisitor.visitCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:214:11)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #16     GeneralizingAstVisitor.visitNamedCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:516:7)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #17     LinterVisitor.visitNamedCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:748:11)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #18     GeneralizingAstVisitor.visitClassDeclaration (package:analyzer/dart/ast/visitor.dart:201:7)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #19     LinterVisitor.visitClassDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:166:11)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #20     ClassDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:2899:50)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #21     NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #22     CompilationUnitImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:3662:21)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #23     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #24     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #25     GeneralizingAstVisitor.visitCompilationUnit (package:analyzer/dart/ast/visitor.dart:219:52)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #26     LinterVisitor.visitCompilationUnit (package:custom_lint_core/src/node_lint_visitor.g.dart:208:11)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #27     CompilationUnitImpl.accept (package:analyzer/src/dart/ast/ast.dart:3655:50)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #28     DartLintRule.startUp.<anonymous closure> (package:custom_lint_core/src/lint_rule.dart:136:17)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #29     _rootRun (dart:async/zone.dart:1399:13)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #30     _CustomZone.run (dart:async/zone.dart:1301:19)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #31     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #32     runPostRunCallbacks (package:custom_lint_core/src/plugin_base.dart:16:19)
+[proper_super_calls] 2024-07-17T02:02:58.140062 #33     _ClientAnalyzerPlugin.analyzeFile.<anonymous closure> (package:custom_lint_builder/src/client.dart:924:7)
+[proper_super_calls] 2024-07-17T02:02:58.140062 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.140062 #34     _ClientAnalyzerPlugin._runOperation (package:custom_lint_builder/src/client.dart:1076:14)
+[proper_super_calls] 2024-07-17T02:02:58.140062 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.140062 #35     _ClientAnalyzerPlugin.analyzeFile (package:custom_lint_builder/src/client.dart:888:5)
+[proper_super_calls] 2024-07-17T02:02:58.140062 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.140062 #36     ServerPlugin.analyzeFiles (package:analyzer_plugin/plugin/plugin.dart:119:7)
+[proper_super_calls] 2024-07-17T02:02:58.140062 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.140062 #37     ServerPlugin.handleAffectedFiles (package:analyzer_plugin/plugin/plugin.dart:211:5)
+[proper_super_calls] 2024-07-17T02:02:58.140062 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.140062 #38     ServerPlugin.contentChanged.<anonymous closure> (package:analyzer_plugin/plugin/plugin.dart:141:9)
+[proper_super_calls] 2024-07-17T02:02:58.140062 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.140062 #39     ServerPlugin._forAnalysisContexts (package:analyzer_plugin/plugin/plugin.dart:517:7)
+[proper_super_calls] 2024-07-17T02:02:58.140062 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.140062 #40     ServerPlugin.contentChanged (package:analyzer_plugin/plugin/plugin.dart:136:7)
+[proper_super_calls] 2024-07-17T02:02:58.140062 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.140062 #41     ServerPlugin.handleAnalysisUpdateContent (package:analyzer_plugin/plugin/plugin.dart:353:5)
+[proper_super_calls] 2024-07-17T02:02:58.140062 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.140062 #42     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:548:18)
+[proper_super_calls] 2024-07-17T02:02:58.140062 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.140062 #43     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+[proper_super_calls] 2024-07-17T02:02:58.140062 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.140062
+[proper_super_calls] 2024-07-17T02:02:58.144243 Plugin proper_super_calls threw while analyzing C:\Users\ertad\StudioProjects\flutter_vlc\pigeons\messages.dart:
+[proper_super_calls] 2024-07-17T02:02:58.144243 type 'EmptyFunctionBodyImpl' is not a subtype of type 'BlockFunctionBody' in type cast
+[proper_super_calls] 2024-07-17T02:02:58.144243 #0      ProperSuperCallsRule.run.<anonymous closure> (package:solid_lints/src/lints/proper_super_calls/proper_super_calls_rule.dart:94:41)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #1      _rootRunUnary (dart:async/zone.dart:1415:13)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #2      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #3      LinterVisitor._runSubscriptions (package:custom_lint_core/src/node_lint_visitor.g.dart:29:27)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #4      LinterVisitor.visitMethodDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:729:5)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #5      MethodDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:12141:50)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #6      NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #7      ClassDeclarationImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:2909:13)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #8      GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #9      LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #10     GeneralizingAstVisitor.visitAnnotatedNode (package:analyzer/dart/ast/visitor.dart:137:48)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #11     LinterVisitor.visitAnnotatedNode (package:custom_lint_core/src/node_lint_visitor.g.dart:46:11)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #12     GeneralizingAstVisitor.visitDeclaration (package:analyzer/dart/ast/visitor.dart:260:44)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #13     LinterVisitor.visitDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:286:11)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #14     GeneralizingAstVisitor.visitCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:222:7)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #15     LinterVisitor.visitCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:214:11)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #16     GeneralizingAstVisitor.visitNamedCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:516:7)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #17     LinterVisitor.visitNamedCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:748:11)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #18     GeneralizingAstVisitor.visitClassDeclaration (package:analyzer/dart/ast/visitor.dart:201:7)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #19     LinterVisitor.visitClassDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:166:11)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #20     ClassDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:2899:50)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #21     NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #22     CompilationUnitImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:3662:21)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #23     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #24     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #25     GeneralizingAstVisitor.visitCompilationUnit (package:analyzer/dart/ast/visitor.dart:219:52)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #26     LinterVisitor.visitCompilationUnit (package:custom_lint_core/src/node_lint_visitor.g.dart:208:11)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #27     CompilationUnitImpl.accept (package:analyzer/src/dart/ast/ast.dart:3655:50)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #28     DartLintRule.startUp.<anonymous closure> (package:custom_lint_core/src/lint_rule.dart:136:17)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #29     _rootRun (dart:async/zone.dart:1399:13)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #30     _CustomZone.run (dart:async/zone.dart:1301:19)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #31     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #32     runPostRunCallbacks (package:custom_lint_core/src/plugin_base.dart:16:19)
+[proper_super_calls] 2024-07-17T02:02:58.144243 #33     _ClientAnalyzerPlugin.analyzeFile.<anonymous closure> (package:custom_lint_builder/src/client.dart:924:7)
+[proper_super_calls] 2024-07-17T02:02:58.144243 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.144243 #34     _ClientAnalyzerPlugin._runOperation (package:custom_lint_builder/src/client.dart:1076:14)
+[proper_super_calls] 2024-07-17T02:02:58.144243 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.144243 #35     _ClientAnalyzerPlugin.analyzeFile (package:custom_lint_builder/src/client.dart:888:5)
+[proper_super_calls] 2024-07-17T02:02:58.144243 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.144243 #36     ServerPlugin.analyzeFiles (package:analyzer_plugin/plugin/plugin.dart:119:7)
+[proper_super_calls] 2024-07-17T02:02:58.144243 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.144243 #37     ServerPlugin.handleAffectedFiles (package:analyzer_plugin/plugin/plugin.dart:211:5)
+[proper_super_calls] 2024-07-17T02:02:58.144243 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.144243 #38     ServerPlugin.contentChanged.<anonymous closure> (package:analyzer_plugin/plugin/plugin.dart:141:9)
+[proper_super_calls] 2024-07-17T02:02:58.144243 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.144243 #39     ServerPlugin._forAnalysisContexts (package:analyzer_plugin/plugin/plugin.dart:517:7)
+[proper_super_calls] 2024-07-17T02:02:58.144243 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.144243 #40     ServerPlugin.contentChanged (package:analyzer_plugin/plugin/plugin.dart:136:7)
+[proper_super_calls] 2024-07-17T02:02:58.144243 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.144243 #41     ServerPlugin.handleAnalysisUpdateContent (package:analyzer_plugin/plugin/plugin.dart:353:5)
+[proper_super_calls] 2024-07-17T02:02:58.144243 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.144243 #42     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:548:18)
+[proper_super_calls] 2024-07-17T02:02:58.144243 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.144243 #43     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+[proper_super_calls] 2024-07-17T02:02:58.144243 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.144243
+[proper_super_calls] 2024-07-17T02:02:58.180171 Plugin proper_super_calls threw while analyzing C:\Users\ertad\StudioProjects\flutter_vlc\pigeons\messages.dart:
+[proper_super_calls] 2024-07-17T02:02:58.180171 type 'EmptyFunctionBodyImpl' is not a subtype of type 'BlockFunctionBody' in type cast
+[proper_super_calls] 2024-07-17T02:02:58.180171 #0      ProperSuperCallsRule.run.<anonymous closure> (package:solid_lints/src/lints/proper_super_calls/proper_super_calls_rule.dart:94:41)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #1      _rootRunUnary (dart:async/zone.dart:1415:13)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #2      _CustomZone.runUnary (dart:async/zone.dart:1308:19)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #3      LinterVisitor._runSubscriptions (package:custom_lint_core/src/node_lint_visitor.g.dart:29:27)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #4      LinterVisitor.visitMethodDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:729:5)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #5      MethodDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:12141:50)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #6      NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #7      ClassDeclarationImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:2909:13)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #8      GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #9      LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #10     GeneralizingAstVisitor.visitAnnotatedNode (package:analyzer/dart/ast/visitor.dart:137:48)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #11     LinterVisitor.visitAnnotatedNode (package:custom_lint_core/src/node_lint_visitor.g.dart:46:11)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #12     GeneralizingAstVisitor.visitDeclaration (package:analyzer/dart/ast/visitor.dart:260:44)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #13     LinterVisitor.visitDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:286:11)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #14     GeneralizingAstVisitor.visitCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:222:7)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #15     LinterVisitor.visitCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:214:11)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #16     GeneralizingAstVisitor.visitNamedCompilationUnitMember (package:analyzer/dart/ast/visitor.dart:516:7)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #17     LinterVisitor.visitNamedCompilationUnitMember (package:custom_lint_core/src/node_lint_visitor.g.dart:748:11)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #18     GeneralizingAstVisitor.visitClassDeclaration (package:analyzer/dart/ast/visitor.dart:201:7)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #19     LinterVisitor.visitClassDeclaration (package:custom_lint_core/src/node_lint_visitor.g.dart:166:11)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #20     ClassDeclarationImpl.accept (package:analyzer/src/dart/ast/ast.dart:2899:50)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #21     NodeListImpl.accept (package:analyzer/src/dart/ast/ast.dart:13022:20)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #22     CompilationUnitImpl.visitChildren (package:analyzer/src/dart/ast/ast.dart:3662:21)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #23     GeneralizingAstVisitor.visitNode (package:analyzer/dart/ast/visitor.dart:535:10)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #24     LinterVisitor.visitNode (package:custom_lint_core/src/node_lint_visitor.g.dart:784:11)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #25     GeneralizingAstVisitor.visitCompilationUnit (package:analyzer/dart/ast/visitor.dart:219:52)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #26     LinterVisitor.visitCompilationUnit (package:custom_lint_core/src/node_lint_visitor.g.dart:208:11)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #27     CompilationUnitImpl.accept (package:analyzer/src/dart/ast/ast.dart:3655:50)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #28     DartLintRule.startUp.<anonymous closure> (package:custom_lint_core/src/lint_rule.dart:136:17)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #29     _rootRun (dart:async/zone.dart:1399:13)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #30     _CustomZone.run (dart:async/zone.dart:1301:19)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #31     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1233:23)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #32     runPostRunCallbacks (package:custom_lint_core/src/plugin_base.dart:16:19)
+[proper_super_calls] 2024-07-17T02:02:58.180171 #33     _ClientAnalyzerPlugin.analyzeFile.<anonymous closure> (package:custom_lint_builder/src/client.dart:924:7)
+[proper_super_calls] 2024-07-17T02:02:58.180171 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.180171 #34     _ClientAnalyzerPlugin._runOperation (package:custom_lint_builder/src/client.dart:1076:14)
+[proper_super_calls] 2024-07-17T02:02:58.180171 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.180171 #35     _ClientAnalyzerPlugin.analyzeFile (package:custom_lint_builder/src/client.dart:888:5)
+[proper_super_calls] 2024-07-17T02:02:58.180171 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.180171 #36     ServerPlugin.analyzeFiles (package:analyzer_plugin/plugin/plugin.dart:119:7)
+[proper_super_calls] 2024-07-17T02:02:58.180171 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.180171 #37     ServerPlugin.handleAffectedFiles (package:analyzer_plugin/plugin/plugin.dart:211:5)
+[proper_super_calls] 2024-07-17T02:02:58.180171 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.180171 #38     ServerPlugin.contentChanged.<anonymous closure> (package:analyzer_plugin/plugin/plugin.dart:141:9)
+[proper_super_calls] 2024-07-17T02:02:58.180171 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.180171 #39     ServerPlugin._forAnalysisContexts (package:analyzer_plugin/plugin/plugin.dart:517:7)
+[proper_super_calls] 2024-07-17T02:02:58.180171 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.180171 #40     ServerPlugin.contentChanged (package:analyzer_plugin/plugin/plugin.dart:136:7)
+[proper_super_calls] 2024-07-17T02:02:58.180171 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.180171 #41     ServerPlugin.handleAnalysisUpdateContent (package:analyzer_plugin/plugin/plugin.dart:353:5)
+[proper_super_calls] 2024-07-17T02:02:58.180171 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.180171 #42     ServerPlugin._getResponse (package:analyzer_plugin/plugin/plugin.dart:548:18)
+[proper_super_calls] 2024-07-17T02:02:58.180171 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.180171 #43     ServerPlugin._onRequest (package:analyzer_plugin/plugin/plugin.dart:599:18)
+[proper_super_calls] 2024-07-17T02:02:58.180171 <asynchronous suspension>
+[proper_super_calls] 2024-07-17T02:02:58.180171
