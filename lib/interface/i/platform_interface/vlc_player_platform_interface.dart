@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
+import 'package:flutter_vlc_player/interface/i/method_channel/method_channel_vlc_player.dart';
 import 'package:flutter_vlc_player_platform_interface/flutter_vlc_player_platform_interface.dart';
-import 'package:flutter_vlc_player_platform_interface/src/method_channel/method_channel_vlc_player.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 // ignore_for_file: prefer-match-file-name
@@ -15,7 +15,8 @@ import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 abstract class VlcPlayerPlatform extends PlatformInterface {
   static final Object _token = Object();
 
-  static VlcPlayerPlatform _instance = MethodChannelVlcPlayer();
+  static VlcPlayerPlatform _instance =
+      MethodChannelVlcPlayer() as VlcPlayerPlatform;
 
   /// The default instance of [VlcPlayerPlatform] to use.
   ///
