@@ -1,13 +1,6 @@
-import 'package:pigeon/pigeon.dart'
-    show
-        ConfigurePigeon,
-        DartOptions,
-        HostApi,
-        JavaOptions,
-        ObjcOptions,
-        PigeonOptions;
+import 'package:pigeon/pigeon_lib.dart';
 
-// ignore: prefer_match_file_name
+//ignore: prefer-match-file-name
 class ViewMessage {
   int? viewId;
 }
@@ -19,7 +12,7 @@ class CreateMessage {
   String? packageName;
   bool? autoPlay;
   int? hwAcc;
-  List<String?>? options;
+  List<String>? options;
 }
 
 class SetMediaMessage {
@@ -78,7 +71,7 @@ class SnapshotMessage {
 
 class SpuTracksMessage {
   int? viewId;
-  Map<Object?, Object?>? subtitles;
+  Map? subtitles;
 }
 
 class SpuTrackMessage {
@@ -95,7 +88,7 @@ class AddSubtitleMessage {
 
 class AudioTracksMessage {
   int? viewId;
-  Map<Object?, Object?>? audios;
+  Map? audios;
 }
 
 class AudioTrackMessage {
@@ -112,7 +105,7 @@ class AddAudioMessage {
 
 class VideoTracksMessage {
   int? viewId;
-  Map<Object?, Object?>? videos;
+  Map? videos;
 }
 
 class VideoTrackMessage {
@@ -132,7 +125,7 @@ class VideoAspectRatioMessage {
 
 class RendererServicesMessage {
   int? viewId;
-  List<String?>? services;
+  List<String>? services;
 }
 
 class RendererScanningMessage {
@@ -142,7 +135,7 @@ class RendererScanningMessage {
 
 class RendererDevicesMessage {
   int? viewId;
-  Map<Object?, Object?>? rendererDevices;
+  Map? rendererDevices;
 }
 
 class RenderDeviceMessage {
@@ -155,18 +148,6 @@ class RecordMessage {
   String? saveDirectory;
 }
 
-@ConfigurePigeon(
-  PigeonOptions(
-    dartOut: '../flutter_vlc_player_platform_interface/lib/src/messages.dart',
-    dartOptions: DartOptions(sourceOutPath: "lib/src/messages/messages.dart"),
-    objcHeaderOut: 'ios/Classes/messages.h',
-    objcSourceOut: 'ios/Classes/messages.m',
-    objcOptions: ObjcOptions(prefix: ''),
-    javaOut:
-        'android/src/main/java/software/solid/fluttervlcplayer/Messages.java',
-    javaOptions: JavaOptions(package: 'software.solid.fluttervlcplayer'),
-  ),
-)
 @HostApi(dartHostTestHandler: 'TestHostVlcPlayerApi')
 abstract class VlcPlayerApi {
   void initialize();
@@ -225,3 +206,13 @@ abstract class VlcPlayerApi {
 }
 
 // to make changes effect, must run "flutter pub run pigeon \--input pigeons/messages.dart --dart_null_safety"
+void configurePigeon(PigeonOptions opts) {
+  opts.dartOut =
+      '../flutter_vlc_player_platform_interface/lib/src/messages/messages.dart';
+  opts.objcHeaderOut = 'ios/Classes/messages.h';
+  opts.objcSourceOut = 'ios/Classes/messages.m';
+  opts.objcOptions?.prefix = '';
+  opts.javaOut =
+      'android/src/main/java/software/solid/fluttervlcplayer/Messages.java';
+  opts.javaOptions?.package = 'software.solid.fluttervlcplayer';
+}

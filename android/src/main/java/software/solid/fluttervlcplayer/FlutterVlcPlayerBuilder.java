@@ -15,7 +15,6 @@ import java.util.List;
 import io.flutter.plugin.common.BinaryMessenger;
 import io.flutter.view.TextureRegistry;
 import software.solid.fluttervlcplayer.Enums.DataSourceType;
-import java.util.HashMap;
 
 public class FlutterVlcPlayerBuilder implements Messages.VlcPlayerApi {
 
@@ -24,12 +23,12 @@ public class FlutterVlcPlayerBuilder implements Messages.VlcPlayerApi {
     private FlutterVlcPlayerFactory.KeyForAssetAndPackageName keyForAssetAndPackageName;
 
     void startListening(BinaryMessenger messenger) {
-        Messages.VlcPlayerApi.setUp(messenger, this);
+        Messages.VlcPlayerApi.setup(messenger, this);
     }
 
     void stopListening(BinaryMessenger messenger) {
 //        disposeAllPlayers();
-        Messages.VlcPlayerApi.setUp(messenger, null);
+        Messages.VlcPlayerApi.setup(messenger, null);
     }
 
     FlutterVlcPlayer build(int viewId, Context context, BinaryMessenger binaryMessenger, TextureRegistry textureRegistry, FlutterVlcPlayerFactory.KeyForAssetFn keyForAsset, FlutterVlcPlayerFactory.KeyForAssetAndPackageName keyForAssetAndPackageName) {
@@ -59,13 +58,9 @@ public class FlutterVlcPlayerBuilder implements Messages.VlcPlayerApi {
         FlutterVlcPlayer player = vlcPlayers.get(arg.getViewId());
         //
         ArrayList<String> options = new ArrayList<String>();
-        if (arg.getOptions() != null && !arg.getOptions().isEmpty()) {
-            for (String option : arg.getOptions()) {
-                if (option != null) {
-                    options.add(option);
-                }
-            }
-        }
+        if (arg.getOptions().size() > 0)
+            for (Object option : arg.getOptions())
+                options.add((String) option);
         player.initialize(options);
         //
         String mediaUrl;
@@ -222,7 +217,7 @@ public class FlutterVlcPlayerBuilder implements Messages.VlcPlayerApi {
     public Messages.SpuTracksMessage getSpuTracks(Messages.ViewMessage arg) {
         FlutterVlcPlayer player = vlcPlayers.get(arg.getViewId());
         Messages.SpuTracksMessage message = new Messages.SpuTracksMessage();
-        message.setSubtitles(new HashMap<>(player.getSpuTracks()));
+        message.setSubtitles(player.getSpuTracks());
         return message;
     }
 
@@ -272,7 +267,7 @@ public class FlutterVlcPlayerBuilder implements Messages.VlcPlayerApi {
     public Messages.AudioTracksMessage getAudioTracks(Messages.ViewMessage arg) {
         FlutterVlcPlayer player = vlcPlayers.get(arg.getViewId());
         Messages.AudioTracksMessage message = new Messages.AudioTracksMessage();
-        message.setAudios(new HashMap<>(player.getAudioTracks()));
+        message.setAudios(player.getAudioTracks());
         return message;
     }
 
@@ -322,7 +317,7 @@ public class FlutterVlcPlayerBuilder implements Messages.VlcPlayerApi {
     public Messages.VideoTracksMessage getVideoTracks(Messages.ViewMessage arg) {
         FlutterVlcPlayer player = vlcPlayers.get(arg.getViewId());
         Messages.VideoTracksMessage message = new Messages.VideoTracksMessage();
-        message.setVideos(new HashMap<>(player.getVideoTracks()));
+        message.setVideos(player.getVideoTracks());
         return message;
     }
 
@@ -337,7 +332,7 @@ public class FlutterVlcPlayerBuilder implements Messages.VlcPlayerApi {
         FlutterVlcPlayer player = vlcPlayers.get(arg.getViewId());
         Messages.VideoTrackMessage message = new Messages.VideoTrackMessage();
         message.setVideoTrackNumber((long) player.getVideoTrack());
-        return message; // null yerine message döndürün
+        return null;
     }
 
     @Override
@@ -372,8 +367,7 @@ public class FlutterVlcPlayerBuilder implements Messages.VlcPlayerApi {
     public Messages.RendererServicesMessage getAvailableRendererServices(Messages.ViewMessage arg) {
         FlutterVlcPlayer player = vlcPlayers.get(arg.getViewId());
         Messages.RendererServicesMessage message = new Messages.RendererServicesMessage();
-        List<String> services = player.getAvailableRendererServices();
-        message.setServices(services != null ? new ArrayList<>(services) : null);
+        message.setServices(player.getAvailableRendererServices());
         return message;
     }
 
@@ -393,7 +387,7 @@ public class FlutterVlcPlayerBuilder implements Messages.VlcPlayerApi {
     public Messages.RendererDevicesMessage getRendererDevices(Messages.ViewMessage arg) {
         FlutterVlcPlayer player = vlcPlayers.get(arg.getViewId());
         Messages.RendererDevicesMessage message = new Messages.RendererDevicesMessage();
-        message.setRendererDevices(new HashMap<>(player.getRendererDevices()));
+        message.setRendererDevices(player.getRendererDevices());
         return message;
     }
 

@@ -4,8 +4,8 @@ version: 7.4.2
 homepage: https://github.com/solid-software/flutter_vlc_player/
 
 environment:
-  sdk: '>=3.4.3 <4.0.0'
-  #flutter: ">=3.3.0"
+  sdk: '>=2.18.0 <4.0.0'
+  flutter: ">=3.3.0"
 
 flutter:
   plugin:
@@ -20,14 +20,13 @@ dependencies:
   flutter:
     sdk: flutter
 
-  flutter_vlc_player_platform_interface: #2.0.3
-    git: https://github.com/ertadis/flutter_vlc_player_platform_interface.git
-  #meta: 1.15.0 #^1.8.0
+  flutter_vlc_player_platform_interface: ^2.0.3
+  meta: ^1.8.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  pigeon: 21.0.0 #0.2.4
-  plugin_platform_interface: 2.1.8  #^2.1.3
-  solid_lints: 0.1.5 #^0.0.18
+  pigeon: ^0.2.4
+  plugin_platform_interface: ^2.1.3
+  solid_lints: ^0.0.18
