@@ -1,31 +1,152 @@
-import 'add_audio_message.dart';
-import 'add_subtitle_message.dart';
-import 'audio_track_message.dart';
-import 'audio_tracks_message.dart';
-import 'boolean_message.dart';
-import 'create_message.dart';
-import 'delay_message.dart';
-import 'duration_message.dart';
-import 'looping_message.dart';
 import 'package:pigeon/pigeon.dart';
-import 'playback_speed_message.dart';
-import 'position_message.dart';
-import 'record_message.dart';
-import 'render_device_message.dart';
-import 'renderer_devices_message.dart';
-import 'renderer_scanning_message.dart';
-import 'renderer_services_message.dart';
-import 'set_media_message.dart';
-import 'snapshot_message.dart';
-import 'spu_track_message.dart';
-import 'spu_tracks_message.dart';
-import 'track_count_message.dart';
-import 'video_aspect_ratio_message.dart';
-import 'video_scale_message.dart';
-import 'video_track_message.dart';
-import 'video_tracks_message.dart';
-import 'view_message.dart';
-import 'volume_message.dart';
+
+//ignore: prefer-match-file-name
+class ViewMessage {
+  int? viewId;
+}
+
+class CreateMessage {
+  int? viewId;
+  String? uri;
+  int? type;
+  String? packageName;
+  bool? autoPlay;
+  int? hwAcc;
+  List<String?>? options;
+}
+
+class SetMediaMessage {
+  int? viewId;
+  String? uri;
+  int? type;
+  String? packageName;
+  bool? autoPlay;
+  int? hwAcc;
+}
+
+class BooleanMessage {
+  int? viewId;
+  bool? result;
+}
+
+class LoopingMessage {
+  int? viewId;
+  bool? isLooping;
+}
+
+class VolumeMessage {
+  int? viewId;
+  int? volume;
+}
+
+class PlaybackSpeedMessage {
+  int? viewId;
+  double? speed;
+}
+
+class PositionMessage {
+  int? viewId;
+  int? position;
+}
+
+class DurationMessage {
+  int? viewId;
+  int? duration;
+}
+
+class DelayMessage {
+  int? viewId;
+  int? delay;
+}
+
+class TrackCountMessage {
+  int? viewId;
+  int? count;
+}
+
+class SnapshotMessage {
+  int? viewId;
+  String? snapshot;
+}
+
+class SpuTracksMessage {
+  int? viewId;
+  Map? subtitles;
+}
+
+class SpuTrackMessage {
+  int? viewId;
+  int? spuTrackNumber;
+}
+
+class AddSubtitleMessage {
+  int? viewId;
+  String? uri;
+  int? type;
+  bool? isSelected;
+}
+
+class AudioTracksMessage {
+  int? viewId;
+  Map? audios;
+}
+
+class AudioTrackMessage {
+  int? viewId;
+  int? audioTrackNumber;
+}
+
+class AddAudioMessage {
+  int? viewId;
+  String? uri;
+  int? type;
+  bool? isSelected;
+}
+
+class VideoTracksMessage {
+  int? viewId;
+  Map? videos;
+}
+
+class VideoTrackMessage {
+  int? viewId;
+  int? videoTrackNumber;
+}
+
+class VideoScaleMessage {
+  int? viewId;
+  double? scale;
+}
+
+class VideoAspectRatioMessage {
+  int? viewId;
+  String? aspectRatio;
+}
+
+class RendererServicesMessage {
+  int? viewId;
+  List<String?>? services;
+}
+
+class RendererScanningMessage {
+  int? viewId;
+  String? rendererService;
+}
+
+class RendererDevicesMessage {
+  int? viewId;
+  Map? rendererDevices;
+}
+
+class RenderDeviceMessage {
+  int? viewId;
+  String? rendererDevice;
+}
+
+class RecordMessage {
+  int? viewId;
+  String? saveDirectory;
+}
 
 @HostApi(dartHostTestHandler: 'TestHostVlcPlayerApi')
 abstract class VlcPlayerApi {
@@ -85,3 +206,13 @@ abstract class VlcPlayerApi {
 }
 
 // to make changes effect, must run "flutter pub run pigeon \--input pigeons/messages.dart --dart_null_safety"
+void configurePigeon(PigeonOptions opts) {
+  opts.dartOut =
+      '../flutter_vlc_player_platform_interface/lib/src/messages/messages.dart';
+  opts.objcHeaderOut = 'ios/Classes/messages.h';
+  opts.objcSourceOut = 'ios/Classes/messages.m';
+  opts.objcOptions?.prefix = '';
+  opts.javaOut =
+      'android/src/main/java/software/solid/fluttervlcplayer/Messages.java';
+  opts.javaOptions?.package = 'software.solid.fluttervlcplayer';
+}

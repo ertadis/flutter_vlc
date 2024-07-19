@@ -1,4 +1,4 @@
-import 'package:flutter_vlc_player_platform_interface/src/enums/renderer_event_type.dart';
+import 'package:flutter_vlc_player/flutter_vlc_player_platform_interface/src/enums/renderer_event_type.dart';
 
 // ignore: prefer-match-file-name
 class VlcRendererEvent {

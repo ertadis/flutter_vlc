@@ -1,10 +1,10 @@
-import 'package:flutter_vlc_player_platform_interface/src/utils/options/vlc_advanced_options.dart';
-import 'package:flutter_vlc_player_platform_interface/src/utils/options/vlc_audio_options.dart';
-import 'package:flutter_vlc_player_platform_interface/src/utils/options/vlc_http_options.dart';
-import 'package:flutter_vlc_player_platform_interface/src/utils/options/vlc_rtp_options.dart';
-import 'package:flutter_vlc_player_platform_interface/src/utils/options/vlc_stream_output_options.dart';
-import 'package:flutter_vlc_player_platform_interface/src/utils/options/vlc_subtitle_options.dart';
-import 'package:flutter_vlc_player_platform_interface/src/utils/options/vlc_video_options.dart';
+import 'vlc_advanced_options.dart';
+import 'vlc_audio_options.dart';
+import 'vlc_http_options.dart';
+import 'vlc_rtp_options.dart';
+import 'vlc_stream_output_options.dart';
+import 'vlc_subtitle_options.dart';
+import 'vlc_video_options.dart';
 
 class VlcPlayerOptions {
   final VlcAdvancedOptions? advanced;

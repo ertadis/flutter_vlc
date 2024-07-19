@@ -24,7 +24,6 @@ dependencies:
   #flutter_vlc_player_platform_interface: #^2.0.3
   meta: #^1.8.0
   pigeon: #^0.2.4
-  flutter_vlc_player_platform_interface: ^2.0.3
 
 dev_dependencies:
   flutter_test:
