@@ -523,7 +523,7 @@ static id GetNullableObjectAtIndex(NSArray<id> *array, NSInteger key) {
 
 @implementation SpuTracksMessage
 + (instancetype)makeWithViewId:(nullable NSNumber *)viewId
-    subtitles:(nullable NSDictionary *)subtitles {
+    subtitles:(nullable NSDictionary<id, id> *)subtitles {
   SpuTracksMessage* pigeonResult = [[SpuTracksMessage alloc] init];
   pigeonResult.viewId = viewId;
   pigeonResult.subtitles = subtitles;
@@ -606,7 +606,7 @@ static id GetNullableObjectAtIndex(NSArray<id> *array, NSInteger key) {
 
 @implementation AudioTracksMessage
 + (instancetype)makeWithViewId:(nullable NSNumber *)viewId
-    audios:(nullable NSDictionary *)audios {
+    audios:(nullable NSDictionary<id, id> *)audios {
   AudioTracksMessage* pigeonResult = [[AudioTracksMessage alloc] init];
   pigeonResult.viewId = viewId;
   pigeonResult.audios = audios;
@@ -689,7 +689,7 @@ static id GetNullableObjectAtIndex(NSArray<id> *array, NSInteger key) {
 
 @implementation VideoTracksMessage
 + (instancetype)makeWithViewId:(nullable NSNumber *)viewId
-    videos:(nullable NSDictionary *)videos {
+    videos:(nullable NSDictionary<id, id> *)videos {
   VideoTracksMessage* pigeonResult = [[VideoTracksMessage alloc] init];
   pigeonResult.viewId = viewId;
   pigeonResult.videos = videos;
@@ -839,7 +839,7 @@ static id GetNullableObjectAtIndex(NSArray<id> *array, NSInteger key) {
 
 @implementation RendererDevicesMessage
 + (instancetype)makeWithViewId:(nullable NSNumber *)viewId
-    rendererDevices:(nullable NSDictionary *)rendererDevices {
+    rendererDevices:(nullable NSDictionary<id, id> *)rendererDevices {
   RendererDevicesMessage* pigeonResult = [[RendererDevicesMessage alloc] init];
   pigeonResult.viewId = viewId;
   pigeonResult.rendererDevices = rendererDevices;

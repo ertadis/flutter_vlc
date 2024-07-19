@@ -140,9 +140,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface SpuTracksMessage : NSObject
 + (instancetype)makeWithViewId:(nullable NSNumber *)viewId
-    subtitles:(nullable NSDictionary *)subtitles;
+    subtitles:(nullable NSDictionary<id, id> *)subtitles;
 @property(nonatomic, strong, nullable) NSNumber * viewId;
-@property(nonatomic, copy, nullable) NSDictionary * subtitles;
+@property(nonatomic, copy, nullable) NSDictionary<id, id> * subtitles;
 @end
 
 @interface SpuTrackMessage : NSObject
@@ -165,9 +165,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface AudioTracksMessage : NSObject
 + (instancetype)makeWithViewId:(nullable NSNumber *)viewId
-    audios:(nullable NSDictionary *)audios;
+    audios:(nullable NSDictionary<id, id> *)audios;
 @property(nonatomic, strong, nullable) NSNumber * viewId;
-@property(nonatomic, copy, nullable) NSDictionary * audios;
+@property(nonatomic, copy, nullable) NSDictionary<id, id> * audios;
 @end
 
 @interface AudioTrackMessage : NSObject
@@ -190,9 +190,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface VideoTracksMessage : NSObject
 + (instancetype)makeWithViewId:(nullable NSNumber *)viewId
-    videos:(nullable NSDictionary *)videos;
+    videos:(nullable NSDictionary<id, id> *)videos;
 @property(nonatomic, strong, nullable) NSNumber * viewId;
-@property(nonatomic, copy, nullable) NSDictionary * videos;
+@property(nonatomic, copy, nullable) NSDictionary<id, id> * videos;
 @end
 
 @interface VideoTrackMessage : NSObject
@@ -232,9 +232,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface RendererDevicesMessage : NSObject
 + (instancetype)makeWithViewId:(nullable NSNumber *)viewId
-    rendererDevices:(nullable NSDictionary *)rendererDevices;
+    rendererDevices:(nullable NSDictionary<id, id> *)rendererDevices;
 @property(nonatomic, strong, nullable) NSNumber * viewId;
-@property(nonatomic, copy, nullable) NSDictionary * rendererDevices;
+@property(nonatomic, copy, nullable) NSDictionary<id, id> * rendererDevices;
 @end
 
 @interface RenderDeviceMessage : NSObject

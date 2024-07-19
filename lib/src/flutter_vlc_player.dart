@@ -37,7 +37,16 @@ class _VlcPlayerState extends State<VlcPlayer> {
   bool _isInitialized = false;
 
   //ignore: avoid-late-keyword
-  late VoidCallback _listener;
+  late VoidCallback _listener = () {
+    if (!mounted) return;
+    //
+    final isInitialized = widget.controller.value.isInitialized;
+    if (isInitialized != _isInitialized) {
+      setState(() {
+        _isInitialized = isInitialized;
+      });
+    }
+  };
 
   _VlcPlayerState() {
     _listener = () {
