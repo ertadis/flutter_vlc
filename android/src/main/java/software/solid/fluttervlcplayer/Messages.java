@@ -2754,7 +2754,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.initialize" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.initialize" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -2776,7 +2776,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.create" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.create" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -2800,7 +2800,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.dispose" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.dispose" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -2824,7 +2824,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.setStreamUrl" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.setStreamUrl" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -2848,7 +2848,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.play" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.play" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -2872,7 +2872,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.pause" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.pause" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -2896,7 +2896,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.stop" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.stop" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -2920,7 +2920,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.isPlaying" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.isPlaying" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -2944,7 +2944,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.isSeekable" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.isSeekable" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -2968,7 +2968,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.setLooping" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.setLooping" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -2992,7 +2992,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.seekTo" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.seekTo" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3016,7 +3016,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.position" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.position" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3040,7 +3040,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.duration" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.duration" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3064,7 +3064,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.setVolume" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.setVolume" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3088,7 +3088,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getVolume" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getVolume" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3112,7 +3112,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.setPlaybackSpeed" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.setPlaybackSpeed" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3136,7 +3136,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getPlaybackSpeed" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getPlaybackSpeed" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3160,7 +3160,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.takeSnapshot" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.takeSnapshot" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3184,7 +3184,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getSpuTracksCount" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getSpuTracksCount" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3208,7 +3208,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getSpuTracks" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getSpuTracks" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3232,7 +3232,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.setSpuTrack" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.setSpuTrack" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3256,7 +3256,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getSpuTrack" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getSpuTrack" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3280,7 +3280,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.setSpuDelay" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.setSpuDelay" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3304,7 +3304,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getSpuDelay" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getSpuDelay" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3328,7 +3328,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.addSubtitleTrack" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.addSubtitleTrack" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3352,7 +3352,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getAudioTracksCount" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getAudioTracksCount" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3376,7 +3376,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getAudioTracks" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getAudioTracks" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3400,7 +3400,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.setAudioTrack" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.setAudioTrack" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3424,7 +3424,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getAudioTrack" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getAudioTrack" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3448,7 +3448,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.setAudioDelay" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.setAudioDelay" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3472,7 +3472,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getAudioDelay" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getAudioDelay" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3496,7 +3496,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.addAudioTrack" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.addAudioTrack" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3520,7 +3520,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getVideoTracksCount" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getVideoTracksCount" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3544,7 +3544,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getVideoTracks" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getVideoTracks" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3568,7 +3568,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.setVideoTrack" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.setVideoTrack" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3592,7 +3592,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getVideoTrack" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getVideoTrack" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3616,7 +3616,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.setVideoScale" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.setVideoScale" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3640,7 +3640,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getVideoScale" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getVideoScale" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3664,7 +3664,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.setVideoAspectRatio" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.setVideoAspectRatio" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3688,7 +3688,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getVideoAspectRatio" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getVideoAspectRatio" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3712,7 +3712,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getAvailableRendererServices" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getAvailableRendererServices" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3736,7 +3736,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.startRendererScanning" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.startRendererScanning" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3760,7 +3760,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.stopRendererScanning" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.stopRendererScanning" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3784,7 +3784,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getRendererDevices" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getRendererDevices" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3808,7 +3808,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.castToRenderer" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.castToRenderer" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3832,7 +3832,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.startRecording" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.startRecording" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {
@@ -3856,7 +3856,7 @@ public class Messages {
       {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
-                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.stopRecording" + messageChannelSuffix, getCodec());
+                binaryMessenger, "dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.stopRecording" + messageChannelSuffix, getCodec());
         if (api != null) {
           channel.setMessageHandler(
               (message, reply) -> {

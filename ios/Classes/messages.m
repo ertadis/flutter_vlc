@@ -1097,7 +1097,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.initialize", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.initialize", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1114,7 +1114,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.create", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.create", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1133,7 +1133,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.dispose", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.dispose", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1152,7 +1152,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.setStreamUrl", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.setStreamUrl", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1171,7 +1171,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.play", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.play", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1190,7 +1190,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.pause", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.pause", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1209,7 +1209,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.stop", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.stop", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1228,7 +1228,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.isPlaying", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.isPlaying", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1247,7 +1247,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.isSeekable", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.isSeekable", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1266,7 +1266,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.setLooping", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.setLooping", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1285,7 +1285,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.seekTo", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.seekTo", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1304,7 +1304,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.position", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.position", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1323,7 +1323,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.duration", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.duration", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1342,7 +1342,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.setVolume", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.setVolume", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1361,7 +1361,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getVolume", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getVolume", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1380,7 +1380,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.setPlaybackSpeed", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.setPlaybackSpeed", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1399,7 +1399,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getPlaybackSpeed", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getPlaybackSpeed", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1418,7 +1418,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.takeSnapshot", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.takeSnapshot", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1437,7 +1437,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getSpuTracksCount", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getSpuTracksCount", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1456,7 +1456,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getSpuTracks", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getSpuTracks", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1475,7 +1475,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.setSpuTrack", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.setSpuTrack", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1494,7 +1494,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getSpuTrack", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getSpuTrack", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1513,7 +1513,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.setSpuDelay", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.setSpuDelay", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1532,7 +1532,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getSpuDelay", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getSpuDelay", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1551,7 +1551,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.addSubtitleTrack", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.addSubtitleTrack", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1570,7 +1570,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getAudioTracksCount", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getAudioTracksCount", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1589,7 +1589,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getAudioTracks", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getAudioTracks", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1608,7 +1608,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.setAudioTrack", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.setAudioTrack", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1627,7 +1627,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getAudioTrack", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getAudioTrack", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1646,7 +1646,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.setAudioDelay", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.setAudioDelay", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1665,7 +1665,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getAudioDelay", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getAudioDelay", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1684,7 +1684,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.addAudioTrack", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.addAudioTrack", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1703,7 +1703,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getVideoTracksCount", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getVideoTracksCount", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1722,7 +1722,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getVideoTracks", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getVideoTracks", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1741,7 +1741,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.setVideoTrack", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.setVideoTrack", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1760,7 +1760,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getVideoTrack", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getVideoTrack", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1779,7 +1779,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.setVideoScale", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.setVideoScale", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1798,7 +1798,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getVideoScale", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getVideoScale", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1817,7 +1817,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.setVideoAspectRatio", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.setVideoAspectRatio", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1836,7 +1836,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getVideoAspectRatio", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getVideoAspectRatio", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1855,7 +1855,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getAvailableRendererServices", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getAvailableRendererServices", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1874,7 +1874,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.startRendererScanning", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.startRendererScanning", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1893,7 +1893,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.stopRendererScanning", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.stopRendererScanning", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1912,7 +1912,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.getRendererDevices", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.getRendererDevices", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1931,7 +1931,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.castToRenderer", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.castToRenderer", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1950,7 +1950,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.startRecording", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.startRecording", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {
@@ -1969,7 +1969,7 @@ void SetUpVlcPlayerApiWithSuffix(id<FlutterBinaryMessenger> binaryMessenger, NSO
   {
     FlutterBasicMessageChannel *channel =
       [[FlutterBasicMessageChannel alloc]
-        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player.VlcPlayerApi.stopRecording", messageChannelSuffix]
+        initWithName:[NSString stringWithFormat:@"%@%@", @"dev.flutter.pigeon.flutter_vlc_player_platform_interface.VlcPlayerApi.stopRecording", messageChannelSuffix]
         binaryMessenger:binaryMessenger
         codec:GetMessagesCodec()];
     if (api) {

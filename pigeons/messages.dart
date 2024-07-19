@@ -1,7 +1,13 @@
-import 'package:pigeon/pigeon.dart';
+import 'package:pigeon/pigeon.dart'
+    show
+        ConfigurePigeon,
+        DartOptions,
+        HostApi,
+        JavaOptions,
+        ObjcOptions,
+        PigeonOptions;
 
-//ignore: prefer-match-file-name
-
+// ignore: prefer_match_file_name
 class ViewMessage {
   int? viewId;
 }
@@ -151,9 +157,8 @@ class RecordMessage {
 
 @ConfigurePigeon(
   PigeonOptions(
-    dartOut:
-        '../flutter_vlc_player_platform_interface/lib/src/messages/messages.dart',
-    dartOptions: DartOptions(copyrightHeader: []),
+    dartOut: '../flutter_vlc_player_platform_interface/lib/src/messages.dart',
+    dartOptions: DartOptions(sourceOutPath: "lib/src/messages/messages.dart"),
     objcHeaderOut: 'ios/Classes/messages.h',
     objcSourceOut: 'ios/Classes/messages.m',
     objcOptions: ObjcOptions(prefix: ''),
