@@ -206,13 +206,16 @@ abstract class VlcPlayerApi {
 }
 
 // to make changes effect, must run "flutter pub run pigeon \--input pigeons/messages.dart --dart_null_safety"
+
 void configurePigeon(PigeonOptions opts) {
-  opts.dartOut =
-      '../flutter_vlc_player_platform_interface/lib/src/messages/messages.dart';
-  opts.objcHeaderOut = 'ios/Classes/messages.h';
-  opts.objcSourceOut = 'ios/Classes/messages.m';
-  opts.objcOptions?.prefix = '';
-  opts.javaOut =
-      'android/src/main/java/software/solid/fluttervlcplayer/Messages.java';
-  opts.javaOptions?.package = 'software.solid.fluttervlcplayer';
+  opts = PigeonOptions(
+    dartOut:
+        '../flutter_vlc_player_platform_interface/lib/src/messages/messages.dart',
+    objcHeaderOut: 'ios/Classes/messages.h',
+    objcSourceOut: 'ios/Classes/messages.m',
+    javaOut:
+        'android/src/main/java/software/solid/fluttervlcplayer/Messages.java',
+    objcOptions: ObjcOptions(prefix: ''),
+    javaOptions: JavaOptions(package: 'software.solid.fluttervlcplayer'),
+  );
 }
