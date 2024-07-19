@@ -1,0 +1,1 @@
+ C:\\Users\\ertad\\StudioProjects\\flutter_vlc\\example\\.dart_tool\\flutter_build\\207d101bdc5c5571be076280564e8d6b\\native_assets.yaml: 
