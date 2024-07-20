@@ -15,6 +15,7 @@ import java.util.List;
 import io.flutter.plugin.common.BinaryMessenger;
 import io.flutter.view.TextureRegistry;
 import software.solid.fluttervlcplayer.Enums.DataSourceType;
+import java.util.HashMap;
 
 public class FlutterVlcPlayerBuilder implements Messages.VlcPlayerApi {
 
@@ -23,12 +24,12 @@ public class FlutterVlcPlayerBuilder implements Messages.VlcPlayerApi {
     private FlutterVlcPlayerFactory.KeyForAssetAndPackageName keyForAssetAndPackageName;
 
     void startListening(BinaryMessenger messenger) {
-        Messages.VlcPlayerApi.setup(messenger, this);
+        Messages.VlcPlayerApi.setUp(messenger, this);
     }
 
     void stopListening(BinaryMessenger messenger) {
 //        disposeAllPlayers();
-        Messages.VlcPlayerApi.setup(messenger, null);
+        Messages.VlcPlayerApi.setUp(messenger, null);
     }
 
     FlutterVlcPlayer build(int viewId, Context context, BinaryMessenger binaryMessenger, TextureRegistry textureRegistry, FlutterVlcPlayerFactory.KeyForAssetFn keyForAsset, FlutterVlcPlayerFactory.KeyForAssetAndPackageName keyForAssetAndPackageName) {
