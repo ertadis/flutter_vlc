@@ -218,7 +218,7 @@ public class FlutterVlcPlayerBuilder implements Messages.VlcPlayerApi {
     public Messages.SpuTracksMessage getSpuTracks(Messages.ViewMessage arg) {
         FlutterVlcPlayer player = vlcPlayers.get(arg.getViewId());
         Messages.SpuTracksMessage message = new Messages.SpuTracksMessage();
-        message.setSubtitles(player.getSpuTracks());
+        message.setSubtitles(new HashMap<>(player.getSpuTracks()));
         return message;
     }
 
@@ -268,7 +268,7 @@ public class FlutterVlcPlayerBuilder implements Messages.VlcPlayerApi {
     public Messages.AudioTracksMessage getAudioTracks(Messages.ViewMessage arg) {
         FlutterVlcPlayer player = vlcPlayers.get(arg.getViewId());
         Messages.AudioTracksMessage message = new Messages.AudioTracksMessage();
-        message.setAudios(player.getAudioTracks());
+        message.setAudios(new HashMap<>(player.getAudioTracks()));
         return message;
     }
 
@@ -318,7 +318,7 @@ public class FlutterVlcPlayerBuilder implements Messages.VlcPlayerApi {
     public Messages.VideoTracksMessage getVideoTracks(Messages.ViewMessage arg) {
         FlutterVlcPlayer player = vlcPlayers.get(arg.getViewId());
         Messages.VideoTracksMessage message = new Messages.VideoTracksMessage();
-        message.setVideos(player.getVideoTracks());
+        message.setVideos(new HashMap<>(player.getVideoTracks()));
         return message;
     }
 
@@ -333,7 +333,7 @@ public class FlutterVlcPlayerBuilder implements Messages.VlcPlayerApi {
         FlutterVlcPlayer player = vlcPlayers.get(arg.getViewId());
         Messages.VideoTrackMessage message = new Messages.VideoTrackMessage();
         message.setVideoTrackNumber((long) player.getVideoTrack());
-        return null;
+        return message;
     }
 
     @Override
@@ -388,7 +388,7 @@ public class FlutterVlcPlayerBuilder implements Messages.VlcPlayerApi {
     public Messages.RendererDevicesMessage getRendererDevices(Messages.ViewMessage arg) {
         FlutterVlcPlayer player = vlcPlayers.get(arg.getViewId());
         Messages.RendererDevicesMessage message = new Messages.RendererDevicesMessage();
-        message.setRendererDevices(player.getRendererDevices());
+        message.setRendererDevices(new HashMap<>(player.getRendererDevices()));
         return message;
     }
 
